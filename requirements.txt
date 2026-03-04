@@ -1,0 +1,6 @@
+jupyterlab==4.4.0
+notebook==7.4.0
+numpy==1.26.4
+pandas==2.2.3
+requests==2.32.3
+openpyxl>=3.1.2
