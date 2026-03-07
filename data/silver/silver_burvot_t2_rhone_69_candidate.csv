@@ -1,0 +1,535 @@
+commune_id;candidate_id;candidate_slot;numero_panneau;sexe;nom;prenom;voix;pct_voix_ins;pct_voix_exp;extraction_source_url;ingestion_timestamp;source_file_name
+69_001;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;98;31.01;41.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_002;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;74;34.1;47.13;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_003;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;823;44.25;65.47;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_004;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;194;41.28;57.74;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_005;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;151;37.1;45.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_006;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1281;36.54;53.15;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_007;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;784;36.67;50.94;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_008;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;207;41.9;53.63;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_009;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2218;43.84;64.05;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_010;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1735;41.59;63.37;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_012;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;173;37.04;51.95;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_013;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1125;39.53;55.64;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_014;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;355;44.43;58.2;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_016;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;49;37.69;53.26;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_017;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;257;44.08;58.68;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_018;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;449;34.59;49.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_019;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2988;35.36;53.86;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_020;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;227;43.82;58.51;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_021;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;727;43.38;60.03;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_022;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;171;41.61;55.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_023;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;468;40.55;53.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_024;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1492;45.43;62.87;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_026;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;142;38.17;52.21;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_027;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;4225;46.14;68.05;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_028;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2385;49.47;65.72;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_029;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;10351;44.32;71.06;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_030;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;263;40.4;54.91;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_031;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;377;38.67;53.86;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_032;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;644;40.86;55.33;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_033;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1166;54.95;68.99;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_034;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;15837;52.02;75.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_035;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;137;40.77;58.3;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_036;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;312;38.33;51.74;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_037;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;183;30.81;42.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_038;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;264;38.04;54.55;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_039;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;212;40.23;57.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_040;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2031;50.22;69.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_042;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;179;41.24;52.96;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_043;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;3729;54.41;72.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_044;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2555;59.58;75.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_045;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;346;38.53;50.73;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_046;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2140;56.12;72.15;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_047;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;389;54.87;69.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_049;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1125;48.66;67.12;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_050;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;780;44.52;64.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_051;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;396;45.1;62.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_052;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1708;49.58;68.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_053;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;177;39.07;58.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_054;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;92;31.94;43.6;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_055;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;466;42.91;57.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_056;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;600;41.52;56.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_057;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;207;46.1;61.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_058;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;162;47.37;64.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_059;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;577;48.9;64.25;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_060;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;162;35.92;45.89;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_061;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;428;45.87;60.11;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_062;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;283;44.08;57.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_063;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1872;54.77;73.67;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_064;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1217;44.27;63.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_065;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;243;34.66;47.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_066;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;939;29.92;44.57;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_067;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;345;37.3;54.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_068;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;957;51.93;72.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_069;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;4161;48.43;67.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_070;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;321;34.93;46.32;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_071;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;493;55.58;74.25;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_072;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;3494;51.69;71.1;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_074;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;576;49.91;63.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_075;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;43;33.59;41.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_076;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1179;51.53;65.25;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_077;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;239;28.73;38.99;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_078;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;253;43.4;55.97;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_080;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;481;35.76;47.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_081;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;6340;53.09;73.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_082;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;86;44.1;56.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_083;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;485;55.43;70.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_084;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;382;39.18;52.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_085;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;559;51.19;69.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_086;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;956;50.05;67.28;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_087;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1359;57.95;76.43;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_088;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2279;45.64;68.67;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_089;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;4384;43.84;71.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_090;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;283;40.66;58.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_091;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;3451;30.72;58.78;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_092;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2192;38.33;59.87;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_093;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;291;35.53;53.79;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_094;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2053;46.49;63.72;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_095;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;262;41.65;55.63;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_096;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2053;35.73;58.27;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_097;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;234;36.0;48.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_098;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;90;25.57;33.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_099;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;318;32.19;44.41;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_100;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2835;44.62;62.99;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_102;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;182;31.87;45.73;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_103;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;309;45.11;60.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_104;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;121;37.58;52.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_105;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;416;50.55;64.6;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_106;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;465;49.26;60.94;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_107;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;260;34.26;47.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_108;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;288;38.2;52.17;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_109;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;259;37.48;51.9;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_110;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;566;39.33;53.2;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_111;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;215;42.91;56.28;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_112;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2515;49.41;67.08;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_113;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;282;46.38;63.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_115;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1478;43.56;61.23;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_116;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1386;50.71;66.51;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_117;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1305;51.18;67.86;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_118;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;630;32.06;45.03;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_119;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;226;33.04;42.97;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_120;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;183;42.36;55.29;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_121;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;947;43.6;59.94;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_122;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;722;45.58;59.33;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_123;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;164535;56.19;79.8;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_124;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;159;40.87;57.19;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_125;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;388;49.18;65.1;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_126;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;348;52.1;67.31;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_127;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1239;52.17;70.8;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_130;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;67;35.08;45.89;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_131;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1178;42.93;57.3;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_132;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;189;31.03;41.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_133;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1749;52.65;70.64;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_134;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;98;50.52;64.47;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_135;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;489;36.41;50.62;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_136;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;933;42.08;58.2;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_137;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;164;49.25;66.67;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_138;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;155;44.54;62.0;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_139;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;412;38.08;53.23;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_140;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;920;51.57;66.47;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_141;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2174;44.97;63.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_142;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1708;44.55;68.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_143;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2317;45.05;68.9;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_145;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;276;43.95;59.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_148;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1018;51.34;66.15;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_149;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;8062;47.67;70.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_151;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;400;36.76;48.43;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_152;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2354;36.81;63.74;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_153;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;450;53.7;69.55;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_154;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;883;49.44;64.26;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_155;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;453;49.03;63.45;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_156;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1062;52.47;69.64;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_157;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1635;41.59;57.05;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_159;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1278;41.96;55.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_160;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;292;35.05;48.99;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_161;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;115;28.75;40.64;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_162;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;465;44.71;61.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_163;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1037;40.35;53.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_164;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;90;32.61;47.62;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_165;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;354;44.19;59.1;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_166;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;97;51.32;65.99;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_167;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;216;47.26;62.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_168;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;508;52.32;70.07;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_169;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;190;35.25;45.45;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_170;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;353;39.98;55.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_171;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;652;38.35;57.55;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_172;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;253;41.41;55.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_173;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;325;42.93;58.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_174;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;181;36.86;52.31;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_175;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;676;43.31;57.09;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_176;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1528;45.3;62.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_177;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;714;45.68;61.29;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_178;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;150;28.3;41.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_179;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1358;44.01;59.93;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_180;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;84;38.71;49.7;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_181;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;53;35.81;50.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_182;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;113;34.45;50.0;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_183;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;81;34.91;46.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_184;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;283;38.98;53.7;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_186;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;58;29.9;37.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_187;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;190;38.85;53.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_188;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;197;34.02;48.88;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_189;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;615;39.63;59.25;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_190;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;789;48.38;66.53;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_191;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2839;57.07;76.94;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_192;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;57;43.51;55.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_193;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;512;46.93;62.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_194;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;3485;59.05;77.5;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_196;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;160;33.97;48.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_197;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;667;38.4;53.92;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_198;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;222;36.75;48.68;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_199;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2860;33.34;69.59;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_200;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;446;37.07;52.72;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_201;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;315;34.35;51.22;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_202;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;8775;55.67;75.19;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_203;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;228;30.0;44.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_204;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;7376;49.98;69.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_205;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1987;52.06;69.62;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_206;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1217;36.02;49.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_207;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1018;46.8;68.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_208;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;859;48.78;64.49;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_209;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;140;28.81;41.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_212;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;167;43.38;58.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_214;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;290;31.94;43.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_215;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;306;43.78;55.43;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_216;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;178;42.38;60.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_217;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;243;39.97;57.04;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_218;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;292;36.82;52.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_219;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;886;48.28;67.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_220;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;588;41.91;57.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_225;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;185;40.13;56.23;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_227;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1499;47.09;65.12;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_228;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1452;44.24;59.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_229;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;173;31.23;44.13;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_230;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;125;45.96;62.5;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_231;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;838;39.51;57.95;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_233;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;542;56.34;74.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_234;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;588;45.79;60.49;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_235;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;612;44.93;62.83;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_236;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;115;28.4;40.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_238;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1060;38.2;55.91;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_239;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;385;40.23;54.3;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_240;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;157;29.35;40.89;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_241;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;885;44.54;60.57;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_242;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;242;31.93;46.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_243;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2324;34.65;56.77;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_244;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;7884;51.6;71.55;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_245;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;242;40.95;55.38;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_246;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;493;49.6;66.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_248;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1271;32.36;48.83;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_249;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1029;42.84;57.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_250;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1934;56.67;72.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_252;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;210;36.27;52.63;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_253;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;205;39.65;55.71;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_254;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;211;32.12;44.23;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_255;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2091;46.33;63.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_256;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;7898;32.72;71.33;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_257;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;348;40.09;52.89;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_258;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;117;43.66;59.09;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_259;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;10648;36.4;68.6;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_260;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1641;49.46;68.4;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_261;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;25;45.45;56.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_263;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;240;35.09;48.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_264;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;7404;38.63;62.79;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_265;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;320;46.44;60.15;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_266;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;40375;45.61;75.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_267;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;645;37.22;51.31;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_268;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1372;50.2;66.83;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_269;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;362;47.44;63.96;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_270;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1562;45.29;59.96;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_271;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;3674;44.68;62.63;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_272;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1602;45.22;61.64;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_273;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2797;38.17;55.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_275;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;6432;35.69;58.19;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_276;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2156;33.54;56.4;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_277;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;4878;46.51;63.25;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_278;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1756;44.31;62.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_279;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1940;40.9;55.19;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_280;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;348;32.31;44.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_281;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;571;40.21;53.72;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_282;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;9233;40.54;63.5;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_283;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;3738;39.99;57.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_284;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1416;57.37;73.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_285;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;930;32.45;45.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_286;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;7094;42.18;66.95;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_287;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;2028;39.49;54.12;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_288;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1524;34.83;50.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_289;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1399;36.35;49.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_290;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;10815;36.59;61.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_291;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1581;39.2;56.32;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_292;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1623;38.27;57.31;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_293;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;982;50.83;66.04;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_294;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;926;45.13;60.64;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_295;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;559;39.23;51.47;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_296;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;963;41.94;57.53;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_297;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;1614;40.95;57.83;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_298;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;911;41.07;55.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_299;1_MACRON_Emmanuel;.0;1;M;MACRON;Emmanuel;634;31.88;42.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_001;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;139;43.99;58.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_002;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;83;38.25;52.87;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_003;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;434;23.33;34.53;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_004;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;142;30.21;42.26;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_005;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;181;44.47;54.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_006;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1129;32.2;46.85;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_007;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;755;35.31;49.06;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_008;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;179;36.23;46.37;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_009;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1245;24.61;35.95;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_010;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1003;24.04;36.63;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_012;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;160;34.26;48.05;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_013;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;897;31.52;44.36;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_014;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;255;31.91;41.8;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_016;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;43;33.08;46.74;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_017;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;181;31.05;41.32;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_018;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;464;35.75;50.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_019;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2560;30.29;46.14;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_020;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;161;31.08;41.49;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_021;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;484;28.88;39.97;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_022;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;139;33.82;44.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_023;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;405;35.1;46.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_024;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;881;26.83;37.13;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_026;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;130;34.95;47.79;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_027;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1984;21.67;31.95;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_028;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1244;25.8;34.28;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_029;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;4216;18.05;28.94;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_030;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;216;33.18;45.09;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_031;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;323;33.13;46.14;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_032;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;520;32.99;44.67;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_033;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;524;24.69;31.01;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_034;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;5068;16.65;24.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_035;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;98;29.17;41.7;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_036;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;291;35.75;48.26;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_037;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;247;41.58;57.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_038;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;220;31.7;45.45;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_039;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;156;29.6;42.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_040;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;885;21.88;30.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_042;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;159;36.64;47.04;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_043;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1439;21.0;27.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_044;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;832;19.4;24.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_045;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;336;37.42;49.27;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_046;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;826;21.66;27.85;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_047;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;168;23.7;30.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_049;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;551;23.83;32.88;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_050;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;430;24.54;35.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_051;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;235;26.77;37.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_052;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;787;22.84;31.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_053;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;126;27.81;41.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_054;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;119;41.32;56.4;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_055;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;346;31.86;42.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_056;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;459;31.76;43.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_057;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;130;28.95;38.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_058;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;89;26.02;35.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_059;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;321;27.2;35.75;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_060;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;191;42.35;54.11;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_061;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;284;30.44;39.89;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_062;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;209;32.55;42.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_063;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;669;19.57;26.33;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_064;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;702;25.54;36.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_065;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;269;38.37;52.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_066;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1168;37.22;55.43;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_067;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;285;30.81;45.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_068;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;365;19.8;27.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_069;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2007;23.36;32.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_070;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;372;40.48;53.68;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_071;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;171;19.28;25.75;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_072;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1420;21.01;28.9;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_074;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;338;29.29;36.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_075;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;61;47.66;58.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_076;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;628;27.45;34.75;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_077;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;374;44.95;61.01;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_078;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;199;34.13;44.03;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_080;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;535;39.78;52.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_081;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2283;19.12;26.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_082;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;66;33.85;43.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_083;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;204;23.31;29.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_084;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;342;35.08;47.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_085;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;246;22.53;30.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_086;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;465;24.35;32.72;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_087;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;419;17.87;23.57;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_088;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1040;20.83;31.33;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_089;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1749;17.49;28.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_090;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;202;29.02;41.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_091;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2420;21.54;41.22;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_092;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1469;25.69;40.13;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_093;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;250;30.53;46.21;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_094;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1169;26.47;36.28;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_095;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;209;33.23;44.37;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_096;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1470;25.58;41.73;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_097;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;247;38.0;51.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_098;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;178;50.57;66.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_099;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;398;40.28;55.59;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_100;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1666;26.22;37.01;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_102;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;216;37.83;54.27;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_103;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;203;29.64;39.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_104;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;111;34.47;47.84;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_105;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;228;27.7;35.4;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_106;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;298;31.57;39.06;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_107;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;293;38.6;52.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_108;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;264;35.01;47.83;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_109;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;240;34.73;48.1;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_110;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;498;34.61;46.8;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_111;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;167;33.33;43.72;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_112;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1234;24.24;32.92;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_113;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;161;26.48;36.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_115;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;936;27.59;38.77;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_116;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;698;25.54;33.49;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_117;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;618;24.24;32.14;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_118;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;769;39.13;54.97;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_119;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;300;43.86;57.03;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_120;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;148;34.26;44.71;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_121;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;633;29.14;40.06;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_122;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;495;31.25;40.67;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_123;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;41643;14.22;20.2;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_124;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;119;30.59;42.81;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_125;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;208;26.36;34.9;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_126;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;169;25.3;32.69;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_127;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;511;21.52;29.2;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_130;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;79;41.36;54.11;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_131;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;878;32.0;42.7;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_132;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;270;44.33;58.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_133;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;727;21.88;29.36;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_134;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;54;27.84;35.53;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_135;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;477;35.52;49.38;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_136;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;670;30.22;41.8;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_137;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;82;24.62;33.33;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_138;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;95;27.3;38.0;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_139;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;362;33.46;46.77;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_140;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;464;26.01;33.53;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_141;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1224;25.32;36.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_142;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;776;20.24;31.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_143;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1046;20.34;31.1;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_145;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;188;29.94;40.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_148;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;521;26.27;33.85;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_149;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;3319;19.63;29.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_151;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;426;39.15;51.57;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_152;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1339;20.94;36.26;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_153;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;197;23.51;30.45;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_154;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;491;27.49;35.74;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_155;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;261;28.25;36.55;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_156;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;463;22.88;30.36;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_157;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1231;31.32;42.95;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_159;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1020;33.49;44.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_160;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;304;36.49;51.01;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_161;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;168;42.0;59.36;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_162;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;297;28.56;38.98;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_163;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;902;35.1;46.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_164;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;99;35.87;52.38;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_165;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;245;30.59;40.9;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_166;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;50;26.46;34.01;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_167;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;129;28.23;37.39;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_168;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;217;22.35;29.93;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_169;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;228;42.3;54.55;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_170;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;286;32.39;44.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_171;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;481;28.29;42.45;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_172;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;205;33.55;44.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_173;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;230;30.38;41.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_174;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;165;33.6;47.69;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_175;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;508;32.54;42.91;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_176;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;911;27.01;37.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_177;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;451;28.85;38.71;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_178;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;212;40.0;58.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_179;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;908;29.42;40.07;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_180;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;85;39.17;50.3;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_181;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;52;35.14;49.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_182;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;113;34.45;50.0;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_183;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;92;39.66;53.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_184;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;244;33.61;46.3;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_186;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;96;49.48;62.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_187;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;162;33.13;46.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_188;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;206;35.58;51.12;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_189;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;423;27.26;40.75;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_190;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;397;24.34;33.47;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_191;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;851;17.11;23.06;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_192;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;46;35.11;44.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_193;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;308;28.23;37.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_194;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1012;17.15;22.5;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_196;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;170;36.09;51.52;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_197;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;570;32.82;46.08;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_198;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;234;38.74;51.32;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_199;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1250;14.57;30.41;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_200;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;400;33.25;47.28;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_201;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;300;32.72;48.78;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_202;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2896;18.37;24.81;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_203;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;285;37.5;55.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_204;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;3189;21.61;30.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_205;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;867;22.71;30.38;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_206;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1218;36.05;50.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_207;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;469;21.56;31.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_208;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;473;26.86;35.51;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_209;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;197;40.53;58.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_212;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;119;30.91;41.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_214;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;379;41.74;56.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_215;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;246;35.19;44.57;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_216;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;117;27.86;39.66;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_217;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;183;30.1;42.96;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_218;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;267;33.67;47.76;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_219;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;425;23.16;32.42;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_220;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;429;30.58;42.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_225;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;144;31.24;43.77;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_227;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;803;25.23;34.88;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_228;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;982;29.92;40.35;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_229;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;219;39.53;55.87;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_230;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;75;27.57;37.5;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_231;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;608;28.67;42.05;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_233;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;183;19.02;25.24;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_234;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;384;29.91;39.51;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_235;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;362;26.58;37.17;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_236;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;170;41.98;59.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_238;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;836;30.13;44.09;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_239;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;324;33.86;45.7;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_240;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;227;42.43;59.11;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_241;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;576;28.99;39.43;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_242;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;282;37.2;53.82;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_243;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1770;26.39;43.23;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_244;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;3135;20.52;28.45;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_245;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;195;32.99;44.62;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_246;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;249;25.05;33.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_248;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1332;33.91;51.17;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_249;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;760;31.64;42.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_250;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;721;21.13;27.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_252;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;189;32.64;47.37;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_253;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;163;31.53;44.29;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_254;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;266;40.49;55.77;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_255;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1204;26.68;36.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_256;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;3174;13.15;28.67;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_257;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;310;35.71;47.11;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_258;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;81;30.22;40.91;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_259;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;4873;16.66;31.4;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_260;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;758;22.85;31.6;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_261;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;19;34.55;43.18;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_263;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;256;37.43;51.61;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_264;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;4387;22.89;37.21;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_265;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;212;30.77;39.85;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_266;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;12763;14.42;24.02;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_267;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;612;35.31;48.69;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_268;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;681;24.92;33.17;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_269;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;204;26.74;36.04;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_270;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1043;30.24;40.04;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_271;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2192;26.66;37.37;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_272;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;997;28.14;38.36;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_273;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2250;30.7;44.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_275;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;4622;25.65;41.81;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_276;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1667;25.93;43.6;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_277;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2834;27.02;36.75;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_278;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1052;26.55;37.46;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_279;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1575;33.21;44.81;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_280;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;435;40.39;55.56;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_281;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;492;34.65;46.28;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_282;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;5308;23.31;36.5;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_283;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;2772;29.66;42.58;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_284;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;509;20.62;26.44;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_285;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1113;38.83;54.48;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_286;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;3502;20.82;33.05;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_287;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1719;33.47;45.88;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_288;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1496;34.19;49.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_289;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1408;36.58;50.16;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_290;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;6725;22.75;38.34;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_291;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1226;30.4;43.68;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_292;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1209;28.51;42.69;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_293;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;505;26.14;33.96;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_294;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;601;29.29;39.36;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_295;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;527;36.98;48.53;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_296;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;711;30.97;42.47;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_297;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;1177;29.87;42.17;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_298;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;735;33.14;44.65;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
+69_299;2_LE PEN_Marine;.1;2;F;LE PEN;Marine;859;43.19;57.54;https://www.data.gouv.fr/api/1/datasets/r/06d9816c-1b87-498d-985e-f312acee4f51;2026-03-07T23:24:07.583940;burvot_t2_france_entiere.xlsx
