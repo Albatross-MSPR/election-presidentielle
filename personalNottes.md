@@ -7,6 +7,10 @@ take a look at dtale might be helpful for showing tbales
 
 
 
+
+
+
+
 The 17 Communes that Disappeared (2017 → 2022)
 These are Beaujolais wine region communes that merged together:
 Merged into new communes:
