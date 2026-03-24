@@ -1,0 +1,16 @@
+id_indicateur_securite;indicateur;unite_de_compte
+SEC_001;Cambriolages de logement;Infraction
+SEC_002;Destructions et dégradations volontaires;Infraction
+SEC_003;Escroqueries et fraudes aux moyens de paiement;Victime
+SEC_004;Trafic de stupéfiants;Mis en cause
+SEC_005;Usage de stupéfiants;Mis en cause
+SEC_006;Usage de stupéfiants (AFD);Mis en cause
+SEC_007;Violences physiques hors cadre familial;Victime
+SEC_008;Violences physiques intrafamiliales;Victime
+SEC_009;Violences sexuelles;Victime
+SEC_010;Vols avec armes;Infraction
+SEC_011;Vols d'accessoires sur véhicules;Véhicule
+SEC_012;Vols dans les véhicules;Véhicule
+SEC_013;Vols de véhicule;Véhicule
+SEC_014;Vols sans violence contre des personnes;Victime entendue
+SEC_015;Vols violents sans arme;Infraction
