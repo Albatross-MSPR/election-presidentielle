@@ -1,14 +1,14 @@
 {
   "with_2022_t1": {
-    "features_count": 89,
-    "accuracy": 0.9259259259259259,
-    "balanced_accuracy": 0.9159090909090909,
-    "f1": 0.9534883720930233
+    "features_count": 94,
+    "accuracy": 0.9433962264150944,
+    "balanced_accuracy": 0.8883720930232558,
+    "f1": 0.9655172413793104
   },
   "without_2022_t1": {
-    "features_count": 67,
-    "accuracy": 0.9074074074074074,
-    "balanced_accuracy": 0.865909090909091,
-    "f1": 0.942528735632184
+    "features_count": 73,
+    "accuracy": 0.9056603773584906,
+    "balanced_accuracy": 0.8651162790697675,
+    "f1": 0.9411764705882352
   }
 }
