@@ -1,14 +1,29 @@
 {
+  "metadata": {
+    "description": "Binary classification: Macron wins 2022 T2 (target=1) vs does not win (target=0)",
+    "data_coverage": [
+      "2012 (T1/T2)",
+      "2017 (T1/T2)",
+      "2022 (T1/T2)"
+    ],
+    "communes_analyzed": 293,
+    "features_included": [
+      "participation metrics",
+      "candidate results (nuances)",
+      "security indicators"
+    ],
+    "note_2012": "2012 data has blancs/nuls aggregated by law - now decomposed with blancs_et_nuls column"
+  },
   "with_2022_t1": {
-    "features_count": 94,
+    "features_count": 151,
     "accuracy": 0.9433962264150944,
-    "balanced_accuracy": 0.8883720930232558,
-    "f1": 0.9655172413793104
+    "balanced_accuracy": 0.9267441860465117,
+    "f1": 0.9647058823529412
   },
   "without_2022_t1": {
-    "features_count": 73,
-    "accuracy": 0.9056603773584906,
-    "balanced_accuracy": 0.8651162790697675,
-    "f1": 0.9411764705882352
+    "features_count": 125,
+    "accuracy": 0.8867924528301887,
+    "balanced_accuracy": 0.8151162790697675,
+    "f1": 0.9302325581395349
   }
 }

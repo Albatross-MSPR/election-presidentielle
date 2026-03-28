@@ -1,55 +1,55 @@
 id_commune,actual_winner,actual_winner_label,predicted_winner,predicted_winner_label,proba_REM,proba_RN
-69005,RN,Rassemblement National,RN,Rassemblement National,0.39,0.61
-69074,REM,La République en marche,REM,La République en marche,0.97,0.03
+69005,RN,Rassemblement National,RN,Rassemblement National,0.42,0.58
+69074,REM,La République en marche,REM,La République en marche,1.0,0.0
 69202,REM,La République en marche,REM,La République en marche,1.0,0.0
-69067,REM,La République en marche,REM,La République en marche,0.9,0.1
-69141,REM,La République en marche,REM,La République en marche,1.0,0.0
-69137,REM,La République en marche,REM,La République en marche,0.95,0.05
+69067,REM,La République en marche,REM,La République en marche,0.93,0.07
+69141,REM,La République en marche,REM,La République en marche,0.99,0.01
+69137,REM,La République en marche,REM,La République en marche,0.92,0.08
 69253,REM,La République en marche,REM,La République en marche,0.89,0.11
-69122,REM,La République en marche,REM,La République en marche,0.98,0.02
+69122,REM,La République en marche,REM,La République en marche,0.99,0.01
 69284,REM,La République en marche,REM,La République en marche,1.0,0.0
-69021,REM,La République en marche,REM,La République en marche,1.0,0.0
-69196,RN,Rassemblement National,RN,Rassemblement National,0.19,0.81
-69217,REM,La République en marche,REM,La République en marche,0.8,0.2
-69054,RN,Rassemblement National,REM,La République en marche,0.58,0.42
-69063,REM,La République en marche,REM,La République en marche,0.97,0.03
-69295,REM,La République en marche,REM,La République en marche,0.92,0.08
-69047,REM,La République en marche,REM,La République en marche,0.96,0.04
+69021,REM,La République en marche,REM,La République en marche,0.99,0.01
+69196,RN,Rassemblement National,RN,Rassemblement National,0.17,0.83
+69217,REM,La République en marche,REM,La République en marche,0.86,0.14
+69054,RN,Rassemblement National,REM,La République en marche,0.55,0.45
+69063,REM,La République en marche,REM,La République en marche,1.0,0.0
+69295,REM,La République en marche,REM,La République en marche,0.89,0.11
+69047,REM,La République en marche,REM,La République en marche,0.99,0.01
 69140,REM,La République en marche,REM,La République en marche,1.0,0.0
-69133,REM,La République en marche,REM,La République en marche,0.98,0.02
-69155,REM,La République en marche,REM,La République en marche,0.99,0.01
-69291,REM,La République en marche,REM,La République en marche,0.99,0.01
-69095,REM,La République en marche,REM,La République en marche,0.94,0.06
-69264,REM,La République en marche,REM,La République en marche,1.0,0.0
-69132,RN,Rassemblement National,RN,Rassemblement National,0.3,0.7
-69066,RN,Rassemblement National,REM,La République en marche,0.5,0.5
-69029,REM,La République en marche,REM,La République en marche,1.0,0.0
-69136,REM,La République en marche,REM,La République en marche,0.97,0.03
-69116,REM,La République en marche,REM,La République en marche,0.97,0.03
+69133,REM,La République en marche,REM,La République en marche,1.0,0.0
+69155,REM,La République en marche,REM,La République en marche,1.0,0.0
+69291,REM,La République en marche,REM,La République en marche,0.97,0.03
+69095,REM,La République en marche,REM,La République en marche,0.95,0.05
+69264,REM,La République en marche,REM,La République en marche,0.97,0.03
+69132,RN,Rassemblement National,RN,Rassemblement National,0.41,0.59
+69066,RN,Rassemblement National,RN,Rassemblement National,0.46,0.54
+69029,REM,La République en marche,REM,La République en marche,0.99,0.01
+69136,REM,La République en marche,REM,La République en marche,0.99,0.01
+69116,REM,La République en marche,REM,La République en marche,0.99,0.01
 69265,REM,La République en marche,REM,La République en marche,0.97,0.03
-69076,REM,La République en marche,REM,La République en marche,0.98,0.02
-69238,REM,La République en marche,REM,La République en marche,0.95,0.05
-69245,REM,La République en marche,REM,La République en marche,0.98,0.02
-69298,REM,La République en marche,REM,La République en marche,0.97,0.03
-69099,RN,Rassemblement National,RN,Rassemblement National,0.42,0.58
+69076,REM,La République en marche,REM,La République en marche,0.99,0.01
+69238,REM,La République en marche,REM,La République en marche,0.94,0.06
+69245,REM,La République en marche,REM,La République en marche,0.97,0.03
+69298,REM,La République en marche,REM,La République en marche,0.92,0.08
+69099,RN,Rassemblement National,RN,Rassemblement National,0.26,0.74
 69278,REM,La République en marche,REM,La République en marche,0.99,0.01
 69092,REM,La République en marche,REM,La République en marche,1.0,0.0
-69028,REM,La République en marche,REM,La République en marche,1.0,0.0
-69281,REM,La République en marche,REM,La République en marche,0.98,0.02
+69028,REM,La République en marche,REM,La République en marche,0.99,0.01
+69281,REM,La République en marche,REM,La République en marche,0.99,0.01
 69163,REM,La République en marche,REM,La République en marche,0.93,0.07
-69061,REM,La République en marche,REM,La République en marche,0.95,0.05
-69180,RN,Rassemblement National,REM,La République en marche,0.87,0.13
-69173,REM,La République en marche,REM,La République en marche,0.99,0.01
-69174,REM,La République en marche,REM,La République en marche,0.94,0.06
-69075,RN,Rassemblement National,REM,La République en marche,0.65,0.35
+69061,REM,La République en marche,REM,La République en marche,0.98,0.02
+69180,RN,Rassemblement National,REM,La République en marche,0.81,0.19
+69173,REM,La République en marche,REM,La République en marche,0.95,0.05
+69174,REM,La République en marche,REM,La République en marche,0.86,0.14
+69075,RN,Rassemblement National,REM,La République en marche,0.72,0.28
 69205,REM,La République en marche,REM,La République en marche,1.0,0.0
-69255,REM,La République en marche,REM,La République en marche,0.97,0.03
+69255,REM,La République en marche,REM,La République en marche,1.0,0.0
 69285,RN,Rassemblement National,REM,La République en marche,0.53,0.47
-69004,REM,La République en marche,REM,La République en marche,0.86,0.14
+69004,REM,La République en marche,REM,La République en marche,0.87,0.13
 69220,REM,La République en marche,REM,La République en marche,0.96,0.04
-69084,REM,La République en marche,REM,La République en marche,0.94,0.06
-69119,RN,Rassemblement National,RN,Rassemblement National,0.14,0.86
+69084,REM,La République en marche,REM,La République en marche,0.9,0.1
+69119,RN,Rassemblement National,RN,Rassemblement National,0.15,0.85
 69069,REM,La République en marche,REM,La République en marche,1.0,0.0
-69179,REM,La République en marche,REM,La République en marche,1.0,0.0
-69115,REM,La République en marche,REM,La République en marche,1.0,0.0
-69268,REM,La République en marche,REM,La République en marche,1.0,0.0
+69179,REM,La République en marche,REM,La République en marche,0.99,0.01
+69115,REM,La République en marche,REM,La République en marche,0.98,0.02
+69268,REM,La République en marche,REM,La République en marche,0.98,0.02
