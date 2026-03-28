@@ -1,7 +1,43 @@
+# ============================================================================
+# Election Analytics POC - Complete Requirements
+# Install once with: pip install -r requirements.txt
+# ============================================================================
+
+# -------- Jupyter & Notebook Environments --------
 jupyterlab==4.4.0
 notebook==7.4.0
+ipython==9.11.0
+ipykernel==7.2.0
+
+# -------- Core Data Science Stack --------
 numpy==1.26.4
 pandas==2.2.3
-requests==2.32.3
-openpyxl>=3.1.2
+scipy==1.17.1
+
+# -------- Machine Learning --------
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# -------- Visualization --------
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# -------- Data Exploration & Cleaning --------
 missingno==0.5.2
+openpyxl>=3.1.2
+
+# -------- Data Access & HTTP --------
+requests==2.32.3
+
+# -------- Utilities --------
+python-dateutil==2.9.0.post0
+pytz==2026.1.post1
+
+# ============================================================================
+# Optional: For deployment/documentation
+# ============================================================================
+# mkdocs>=1.5.0
+# black>=23.0.0
+# pytest>=7.0.0
+# pylint>=2.0.0
+

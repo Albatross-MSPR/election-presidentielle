@@ -1,0 +1,87 @@
+id_nuance;libelle_nuance;transformation_timestamp;source_dataset
+EXG;Extrême gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+COM;Communiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+PG;Parti de Gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+SOC;Socialiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+RDG;Radical de Gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DVG;Divers gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+VEC;Europe Ecologie / Les Verts;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+ECO;Ecologiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+REG;Régionaliste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+AUT;Autres;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+MODM;MODEM;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+M-NC;Majorité présidentielle;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+M;Autres candidats majorité présidentielle;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+UMP;Union pour un Mouvement Populaire;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DVD;Divers droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+FN;Front National;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+EXD;Extrême droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LEXG;Liste d'extrême-gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LCOP;Liste du PCF et du Parti de gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LSOC;Liste du Parti socialiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDVG;Liste divers gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LVEC;Liste des Verts;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LREG;Liste régionaliste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LAUT;Autre liste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LCMD;Liste centre-MoDem;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LMAJ;Liste de la majorité;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDVD;Liste divers droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDSV;Liste souverainiste de droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LFN;Liste du Front national;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LEXD;Liste d'extrême-droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LFG;Liste Front de Gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LPG;Liste du Parti de Gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LCOM;Liste du Parti communiste français;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUG;Liste Union de la Gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDIV;Liste Divers;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LMDM;Liste Modem;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUC;Liste Union du Centre;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUDI;Liste Union Démocrates et Indépendants;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUMP;Liste Union pour un Mouvement Populaire;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUD;Liste Union de la Droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+CPNT;Chasse Pêche Nature Traditions;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DIV;Divers;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+UDFD;UDF-Mouvement Démocrate;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+MAJ;Majorité présidentielle;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+MPF;Mouvement pour la France;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+FG;Front de gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+CEN;Le Centre pour la France;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+ALLI;Alliance centriste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+PRV;Parti radical;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+NCE;Nouveau Centre;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+FI;La France insoumise;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+REM;La République en marche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+MDM;Modem;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+UDI;Union des Démocrates et Indépendants;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LR;Les Républicains;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DLF;Debout la France;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DXG;Divers extrême gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+NUP;Nouvelle union populaire écologique et sociale;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+ENS;Ensemble ! (Majorité présidentielle);2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DVC;Divers centre;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DSV;Droite souverainiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+REC;Reconquête !;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+RN;Rassemblement National;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DXD;Divers extrême droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LFI;La France insoumise;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LRDG;Parti radical de gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LECO;Ecologiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LGJ;Gilets jaunes;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LREM;La République en marche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDVC;Divers centre;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LLR;Les Républicains;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDLF;Debout la France;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LRN;Rassemblement National;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LGC;Liste gauche-centristes;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LMC;Liste majorité-centristes;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LNC;Non Communiqué;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LVEG;Liste EELV et gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUGE;Liste d'union à gauche avec des écologiste;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUCG;Liste d'union au centre et à gauche;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUCD;Liste d'union au centre et à droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LUXD;Liste d'union à l'extrême-droite;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LMMD;Liste Majorité-MoDem;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LCEN;Liste d'union du centre;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LDLR;Liste Debout la République;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+DLR;Debout la République;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv
+LMP;Majorité présidentielle;2026-03-28T02:12:28.066136;bronze_dictionnaire_des_nuances_politiques.csv

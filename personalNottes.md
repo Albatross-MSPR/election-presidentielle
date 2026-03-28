@@ -69,3 +69,16 @@ Possible reasons: New communes from mergers, administrative changes, or better d
 
 DONT FORGET TO FIX THE MISSING COMMUNES AFTER TRAINING THE MODEL 
 code to keep only comon commune are in perso
+
+
+
+
+Historiquement, le décompte séparé des bulletins blancs et des bulletins nuls n'a été appliqué en France qu'à partir de la loi de 2014. C'est pourquoi le fichier de 2012 contient la colonne agrégée "Blancs et nuls", alors que ceux de 2017 et 2022 les séparent.
+
+Il est préférable d'utiliser des valeurs nulles (NULL / NaN) lorsque la granularité de l'information n'existe pas, et d'ajouter une colonne pour englober la notion historique.
+
+Ajoutez une colonne blancs_et_nuls à votre schéma Silver global.
+Pour 2012 : blancs_et_nuls reçoit la valeur source. Les colonnes blancs et nuls reçoivent la valeur NULL (et non 0).
+Pour 2017 et 2022 : blancs et nuls reçoivent leurs valeurs sources respectives. Vous pouvez aussi calculer blancs_et_nuls = blancs + nuls pour faciliter les comparaisons temporelles dans vos futurs tableaux de bord.
+
+
