@@ -1,0 +1,306 @@
+id_commune,libelle_commune,vulnerability_score,rank,pct_abs_ins,predicted_abstention,libelle_nuance,predicted_nuance
+69259,Vénissieux,22.973175186182736,1.0,31.5,29.625821256593465,La France insoumise,La France insoumise
+69256,Vaulx-en-Velin,21.280160110473943,2.0,40.45,29.652782744884995,La France insoumise,La France insoumise
+69199,Saint-Fons,19.730349710445644,3.0,38.78,28.531481050079044,La France insoumise,La France insoumise
+69091,Givors,16.584923596113853,4.0,34.24,29.590486427876897,La France insoumise,La France insoumise
+69264,Villefranche-sur-Saône,9.512540277342131,5.0,28.34,23.454079325604567,La France insoumise,La France insoumise
+69286,Rillieux-la-Pape,8.826729138610792,6.0,25.34,21.117055782468245,La France insoumise,La France insoumise
+69266,Villeurbanne,8.0306941685216,7.0,27.71,23.478084757166812,La France insoumise,La France insoumise
+69243,Tarare,7.451135651615444,8.0,29.24,24.699258299517588,La République en marche,La France insoumise
+69029,Bron,5.99798976904284,9.0,26.48,24.50715155633898,La France insoumise,La France insoumise
+69248,Thizy-Les-Bourgs,4.912123454830531,10.0,25.07,21.507843764745225,Front National,Front National
+69248,Thizy,4.912123454830531,10.0,25.07,21.507843764745225,Front National,Front National
+69006,Amplepuis,4.9068643648596115,11.0,22.87,24.02285671325652,Front National,Front National
+69066,Cours,4.828681744901338,12.0,23.94,25.095841964272033,Front National,Front National
+69066,Cours-la-Ville,4.828681744901338,12.0,23.94,25.095841964272033,Front National,Front National
+69299,Colombier-Saugnieu,4.727500528190571,13.0,19.51,24.62453784867583,Front National,Front National
+69290,Saint-Priest,3.970397006459883,14.0,29.89,22.834418516093116,La France insoumise,La France insoumise
+69276,Feyzin,3.7868044093624227,15.0,28.72,21.644537700017658,La France insoumise,La France insoumise
+69275,Décines-Charpieu,3.4496015533118625,16.0,28.01,21.32121166874023,La France insoumise,La France insoumise
+69142,La Mulatière,3.1908129438657964,17.0,23.92,22.89825541858642,La République en marche,La République en marche
+69123,Lyon,3.0208834058881875,18.0,18.05,23.09022386128321,La République en marche,La République en marche
+69096,Grigny,2.7194889590375806,19.0,25.09,21.39431025129703,La France insoumise,La France insoumise
+69143,Neuville-sur-Saône,2.6824085229001584,20.0,24.92,25.01392538503726,La République en marche,La République en marche
+69238,Saint-Symphorien-sur-Coise,2.6386531708879843,21.0,24.55,24.407985634693297,La République en marche,La République en marche
+69273,Corbas,2.3287287574320366,22.0,21.43,24.529959030454098,La République en marche,La République en marche
+69064,Condrieu,2.2753920699041887,23.0,20.87,22.67233114868605,La République en marche,La République en marche
+69092,Gleizé,1.8726477320378854,24.0,27.49,23.10781852100834,La République en marche,La République en marche
+69010,L'Arbresle,1.6797846795873133,25.0,22.47,21.483208791606412,La République en marche,La République en marche
+69019,Belleville,1.123338590260815,26.0,26.06,24.230688887175475,Front National,Front National
+69019,Belleville-en-Beaujolais,1.123338590260815,26.0,26.06,24.230688887175475,Front National,Front National
+69242,Taponas,0.9682433738538778,27.0,22.71,22.736140772094704,Front National,Front National
+69115,Limas,0.9676411229146787,28.0,19.07,23.60595956683352,La République en marche,La République en marche
+69292,Sathonay-Camp,0.882102970607117,29.0,23.67,22.303353541793385,La République en marche,La République en marche
+69077,Dracé,0.8506173275161306,30.0,18.92,23.812134980248725,Front National,Front National
+69189,Sainte-Colombe,0.8194397527251327,31.0,22.04,21.78423669878611,La République en marche,La République en marche
+69235,Saint-Romain-en-Gal,0.7335413112910321,32.0,20.26,21.973237908872665,La République en marche,La République en marche
+69227,Saint-Martin-en-Haut,0.6990039952591514,33.0,17.91,20.828941087338215,La République en marche,La République en marche
+69009,Anse,0.6355934301357764,34.0,20.96,24.792907067884794,La République en marche,La République en marche
+69214,Saint-Jean-la-Bussière,0.6239173382734615,35.0,17.84,20.316389999299716,Front National,Front National
+69149,Oullins,0.6147006969680168,36.0,22.4,23.172603641679324,La République en marche,La République en marche
+69171,Sain-Bel,0.5662870849006983,37.0,21.41,21.78423669878611,La République en marche,La République en marche
+69088,Fontaines-sur-Saône,0.49871262897146057,38.0,23.13,21.710715867069283,La République en marche,La République en marche
+69118,Loire-sur-Rhône,0.381271821086642,39.0,20.15,21.78423669878611,Front National,La République en marche
+69021,Bessenay,0.34512784710782396,40.0,14.32,21.78423669878611,La République en marche,La République en marche
+69168,Rochetaillée-sur-Saône,0.3135909381657166,41.0,15.76,23.44829927861699,La République en marche,La République en marche
+69197,Saint-Etienne-des-Oullières,0.23908792233287562,42.0,21.44,21.78423669878611,La République en marche,La République en marche
+69157,Pontcharra-sur-Turdine,0.21363111551676722,43.0,18.79,21.76857733288102,La République en marche,La République en marche
+69157,Vindry-sur-Turdine,0.21363111551676722,43.0,18.79,21.76857733288102,La République en marche,La République en marche
+69100,Irigny,0.21305132854024492,44.0,18.76,21.751176463720565,La République en marche,La République en marche
+69040,Champagne-au-Mont-d'Or,0.18920612775462975,45.0,18.81,23.53797775733158,La République en marche,La République en marche
+69234,Saint-Romain-de-Popey,0.16510286814290345,46.0,15.68,21.710715867069283,La République en marche,La République en marche
+69135,Monsols,0.13783991338705348,47.0,20.77,21.90563419171487,Front National,Front National
+69135,Deux-Grosnes,0.13783991338705348,47.0,20.77,21.90563419171487,Front National,Front National
+69201,Sainte-Foy-l'Argentière,0.126852251667137,48.0,26.09,22.377287491771792,Front National,Front National
+69294,Sérézin-du-Rhône,0.06585204949346496,49.0,17.15,21.78423669878611,La République en marche,La République en marche
+69107,Lamure-sur-Azergues,0.04636831280528286,50.0,19.37,22.377287491771792,Front National,Front National
+69207,Saint-Germain-au-Mont-d'Or,0.021983675279236326,51.0,22.68,21.758500804379405,La République en marche,La République en marche
+69093,Grandris,-0.00998116998076915,52.0,23.32,22.377287491771792,La République en marche,Front National
+69269,Yzeron,-0.05124997479799019,53.0,14.55,23.359071267924723,La République en marche,Front National
+69013,Arnas,-0.058880061852490256,54.0,19.66,23.13868654478407,La République en marche,La République en marche
+69267,Villié-Morgon,-0.10776508878054918,55.0,19.65,20.963188582848005,La République en marche,La République en marche
+69175,Savigny,-0.10983411659913389,56.0,14.93,21.78423669878611,La République en marche,La République en marche
+69181,Saint-Appolinaire,-0.1106929697181456,57.0,16.89,21.78423669878611,Front National,Front National
+69098,Les Halles,-0.12221200686239267,58.0,17.61,21.134826306607664,Front National,Front National
+69003,Albigny-sur-Saône,-0.13759765722273543,59.0,22.46,22.830500876935517,La République en marche,La République en marche
+69206,Saint-Georges-de-Reneins,-0.16864933985472239,60.0,21.39,21.85434784700517,Front National,Front National
+69161,Propières,-0.17646220546267607,61.0,25.37,21.78423669878611,Front National,Front National
+69018,Beaujeu,-0.17982407522015892,62.0,23.11,21.682425490955964,Front National,Front National
+69095,Grézieu-le-Marché,-0.2042553557893681,63.0,12.72,21.78423669878611,La République en marche,Front National
+69254,Valsonne,-0.2047404493714438,64.0,20.55,21.78423669878611,Front National,Front National
+69263,Villechenève,-0.2048559860280133,65.0,19.33,21.78423669878611,Front National,Front National
+69084,Fleurie,-0.21491443615900288,66.0,18.26,21.78423669878611,La République en marche,Front National
+69216,Saint-Julien-sur-Bibost,-0.21698332557990652,67.0,15.24,21.78423669878611,La République en marche,Front National
+69102,Joux,-0.22086407423651241,68.0,18.21,21.78423669878611,Front National,Front National
+69162,Quincié-en-Beaujolais,-0.22849727025358355,69.0,19.67,21.78423669878611,La République en marche,Front National
+69110,Larajasse,-0.2368824377775703,70.0,19.69,21.78423669878611,La République en marche,Front National
+69165,Régnié-Durette,-0.24300904148454663,71.0,14.73,21.78423669878611,La République en marche,Front National
+69228,Chabanière,-0.24452676395125764,72.0,15.6,22.324833617663995,La République en marche,La République en marche
+69228,Saint-Maurice-sur-Dargoire,-0.24452676395125764,72.0,15.6,22.324833617663995,La République en marche,La République en marche
+69139,Montrottier,-0.24511875334029926,73.0,17.83,21.78423669878611,La République en marche,Front National
+69151,Le Perréon,-0.24714824050206038,74.0,15.81,21.78423669878611,Front National,Front National
+69281,Marennes,-0.2479571815489672,75.0,17.82,22.377287491771792,La République en marche,La République en marche
+69124,Marchampt,-0.24804791909856325,76.0,21.85,21.78423669878611,La République en marche,Front National
+69220,Saint-Laurent-de-Chamousset,-0.24858588325500092,77.0,19.2,21.75910822031811,La République en marche,La République en marche
+69039,Chamelet,-0.26258212229502575,78.0,17.27,21.78423669878611,Front National,Front National
+69236,Saint-Romain-en-Gier,-0.26549268378748025,79.0,20.84,21.78423669878611,Front National,Front National
+69078,Duerne,-0.2659777773695559,80.0,12.69,21.78423669878611,La République en marche,Front National
+69014,Aveize,-0.26668961172876293,81.0,17.65,21.78423669878611,La République en marche,Front National
+69060,Claveisolles,-0.2671686079081017,82.0,15.74,21.78423669878611,Front National,Front National
+69203,Saint-Genis-l'Argentière,-0.27630560766507317,83.0,21.58,21.78423669878611,Front National,Front National
+69024,Val d'Oingt,-0.27722709153636055,84.0,18.77,21.78423669878611,La République en marche,La République en marche
+69024,Le Bois-d'Oingt,-0.27722709153636055,84.0,18.77,21.78423669878611,La République en marche,La République en marche
+69032,Bully,-0.2784523613801471,85.0,16.63,21.421991880323898,La République en marche,La République en marche
+69070,Cublize,-0.27963394201826247,86.0,19.3,21.78423669878611,Front National,Front National
+69062,Coise,-0.29704237088821267,87.0,14.49,21.78423669878611,La République en marche,Front National
+69099,Haute-Rivoire,-0.30112515865340295,88.0,19.41,21.78423669878611,Front National,Front National
+69257,Vaux-en-Beaujolais,-0.3038150767714633,89.0,19.93,21.78423669878611,Front National,Front National
+69169,Ronno,-0.325662892230681,90.0,15.37,21.78423669878611,La République en marche,Front National
+69167,Rivolet,-0.32649893847245354,91.0,13.57,21.78423669878611,La République en marche,Front National
+69120,Longessaigne,-0.33302579841383206,92.0,17.63,21.78423669878611,La République en marche,Front National
+69002,Aigueperse,-0.33510031366451803,93.0,26.73,21.78423669878611,Front National,Front National
+69097,Les Haies,-0.33534615960638625,94.0,19.08,21.78423669878611,Front National,Front National
+69103,Juliénas,-0.338216373191522,95.0,15.04,21.78423669878611,La République en marche,Front National
+69119,Longes,-0.3388759556032954,96.0,16.11,21.78423669878611,Front National,Front National
+69188,Saint-Clément-sous-Valsonne,-0.34187301954776494,97.0,20.9,21.78423669878611,Front National,Front National
+69291,Saint-Symphorien-d'Ozon,-0.34511240358936685,98.0,21.48,21.748845003635676,La République en marche,La République en marche
+69245,Ternand,-0.346988405576204,99.0,16.72,21.78423669878611,La République en marche,Front National
+69145,Odenas,-0.34894738417031645,100.0,17.81,21.78423669878611,La République en marche,Front National
+69160,Poule-les-Echarmeaux,-0.3583991542102653,101.0,18.99,21.78423669878611,Front National,Front National
+69026,Le Breuil,-0.3688176167696118,102.0,20.16,21.78423669878611,La République en marche,La République en marche
+69200,Saint-Forgeux,-0.3746176510139229,103.0,22.03,21.78423669878611,Front National,Front National
+69166,Riverie,-0.3764741544806416,104.0,14.89,21.78423669878611,La République en marche,La République en marche
+69007,Ampuis,-0.3789208344888619,105.0,18.94,22.008076903932714,La République en marche,La République en marche
+69038,Chambost-Longessaigne,-0.3796023778184739,106.0,17.15,21.197449901907778,La République en marche,Front National
+69285,Pusignan,-0.3822193256074218,107.0,20.89,23.469520781189445,Front National,Front National
+69170,Rontalon,-0.38435936576054247,108.0,17.69,21.78423669878611,Front National,Front National
+69023,Blacé,-0.38528055187204324,109.0,16.19,21.78423669878611,La République en marche,La République en marche
+69218,Saint-Lager,-0.3858144964080724,110.0,24.09,21.78423669878611,Front National,Front National
+69163,Quincieux,-0.3873216039420284,111.0,17.0,21.78423669878611,Front National,La République en marche
+69017,Bagnols,-0.38870645363471823,112.0,15.27,21.78423669878611,La République en marche,La République en marche
+69278,Genay,-0.3904734872809709,113.0,20.6,21.78423669878611,La République en marche,La République en marche
+69164,Ranchal,-0.3935235312368462,114.0,24.28,21.78423669878611,Front National,Front National
+69111,Légny,-0.39889341885830776,115.0,15.74,21.78423669878611,La République en marche,La République en marche
+69288,Saint-Laurent-de-Mure,-0.40168857905946814,116.0,22.18,25.80661690580939,Front National,Front National
+69113,Létra,-0.4063904659638381,117.0,14.83,21.78423669878611,La République en marche,Front National
+69184,Sainte-Catherine,-0.41163999291465597,118.0,15.15,21.78423669878611,La République en marche,Front National
+69219,Saint-Laurent-d'Agny,-0.4165434255461777,119.0,18.65,22.527145927231736,La République en marche,La République en marche
+69036,Cercié,-0.4214445945405683,120.0,19.39,21.78423669878611,Front National,Front National
+69261,Vernay,-0.4251229116071407,121.0,14.55,21.78423669878611,La République en marche,Front National
+69059,Civrieux-d'Azergues,-0.4303388585358686,122.0,15.86,21.78423669878611,La République en marche,La République en marche
+69080,Echalas,-0.4326548793719539,123.0,16.64,21.78423669878611,Front National,La République en marche
+69239,Saint-Vérand,-0.4334126279246671,124.0,18.1,21.78423669878611,La République en marche,La République en marche
+69105,Lacenas,-0.4362456246781395,125.0,14.7,21.78423669878611,La République en marche,La République en marche
+69215,Saint-Julien,-0.43855555593194856,126.0,17.77,21.78423669878611,La République en marche,La République en marche
+69252,Trèves,-0.43880523351089734,127.0,23.32,21.78423669878611,La République en marche,Front National
+69074,Denicé,-0.4416572107500324,128.0,13.73,21.78423669878611,La République en marche,La République en marche
+69045,Charentay,-0.4451114500778819,129.0,16.83,21.78423669878611,Front National,Front National
+69196,Saint-Didier-sur-Beaujeu,-0.4463022806164275,130.0,19.96,21.78423669878611,Front National,Front National
+69067,Courzieu,-0.4500156166123908,131.0,24.11,21.78423669878611,La République en marche,Front National
+69109,Lantignié,-0.4521913869642812,132.0,18.99,21.78423669878611,La République en marche,Front National
+69108,Lancié,-0.4686165853919113,133.0,15.8,21.78423669878611,La République en marche,Front National
+69055,Les Chères,-0.46933711830515296,134.0,16.21,22.651455441796006,La République en marche,La République en marche
+69005,Ambérieux,-0.47727566204244104,135.0,14.74,21.197449901907778,Front National,Front National
+69037,Chambost-Allières,-0.4779298145180244,136.0,16.67,21.78423669878611,Front National,Front National
+69056,Chessy-les-Mines,-0.4821352463458726,137.0,15.29,21.78423669878611,La République en marche,La République en marche
+69056,Chessy,-0.4821352463458726,137.0,15.29,21.78423669878611,La République en marche,La République en marche
+69183,Saint-Bonnet-le-Troncy,-0.48280613661109656,138.0,17.24,21.78423669878611,Front National,Front National
+69031,Brussieu,-0.48387144734514703,139.0,16.65,21.78423669878611,Front National,Front National
+69178,Souzy,-0.4900639360764231,140.0,17.92,21.78423669878611,Front National,Front National
+69051,Chaussan,-0.49265062112130376,141.0,13.34,21.78423669878611,La République en marche,La République en marche
+69246,Theizé,-0.49799421465946947,142.0,13.7,21.78423669878611,La République en marche,La République en marche
+69137,Montmelas-Saint-Sorlin,-0.501867399180743,143.0,12.01,21.78423669878611,La France insoumise,La République en marche
+69061,Cogny,-0.5030730023480209,144.0,15.36,21.78423669878611,La République en marche,La République en marche
+69042,La Chapelle-sur-Coise,-0.5163738415613143,145.0,13.39,21.78423669878611,Front National,Front National
+69090,Frontenas,-0.5164202066430151,146.0,20.11,21.78423669878611,La République en marche,La République en marche
+69231,Saint-Pierre-la-Palud,-0.5195598785400257,147.0,21.78,21.78423669878611,La République en marche,La République en marche
+69297,Ternay,-0.5201094356976366,148.0,20.53,22.099780648848096,La République en marche,La République en marche
+69121,Lozanne,-0.5213177167712723,149.0,17.32,22.042967211393613,La République en marche,La République en marche
+69260,Vernaison,-0.5220520223381974,150.0,18.13,21.98133126008716,La République en marche,La République en marche
+69174,Les Sauvages,-0.5241539431403355,151.0,20.98,21.78423669878611,La République en marche,Front National
+69182,Saint-Bonnet-des-Bruyères,-0.5248450485841867,152.0,20.73,21.78423669878611,Front National,Front National
+69187,Saint-Clément-les-Places,-0.5273006052396851,153.0,14.75,21.78423669878611,La République en marche,Front National
+69065,Corcelles-en-Beaujolais,-0.5275670953174868,154.0,21.43,21.78423669878611,Front National,Front National
+69053,Chénas,-0.5433309456462336,155.0,21.19,21.78423669878611,La République en marche,Front National
+69240,Saint-Vincent-de-Reins,-0.5435683196417921,156.0,24.07,21.78423669878611,Front National,Front National
+69085,Fleurieu-sur-Saône,-0.5442064775473012,157.0,17.05,22.18280982518682,La République en marche,La République en marche
+69030,Brullioles,-0.5443876352624001,158.0,18.89,21.78423669878611,La République en marche,Front National
+69198,Saint-Etienne-la-Varenne,-0.5476868392702564,159.0,17.08,21.78423669878611,Front National,Front National
+69012,Les Ardillats,-0.5610210553780899,160.0,15.45,21.78423669878611,La République en marche,Front National
+69209,Saint-Igny-de-Vers,-0.5669769460321898,161.0,25.62,21.78423669878611,Front National,Front National
+69253,Tupin-et-Semons,-0.567567020484211,162.0,20.5,21.78423669878611,Front National,La République en marche
+69229,Saint-Nizier-d'Azergues,-0.5733581201663839,163.0,21.88,21.78423669878611,Front National,Front National
+69125,Marcilly-d'Azergues,-0.5749823891518,164.0,14.7,21.78423669878611,La République en marche,La République en marche
+69020,Belmont-d'Azergues,-0.596830204611017,165.0,11.58,21.78423669878611,La République en marche,La République en marche
+69004,Alix,-0.6032396542511806,166.0,15.53,21.78423669878611,La République en marche,La République en marche
+69296,Solaize,-0.6099803761100606,167.0,17.16,23.467253393644548,La République en marche,La République en marche
+69022,Bibost,-0.6110721967839073,168.0,16.1,21.78423669878611,Front National,Front National
+69008,Ancy,-0.6163217237347245,169.0,14.37,21.78423669878611,Front National,Front National
+69131,Messimy,-0.6279391016546081,170.0,16.84,21.78423669878611,La République en marche,La République en marche
+69173,Sarcey,-0.631477047611465,171.0,18.12,21.78423669878611,La République en marche,La République en marche
+69230,Sainte-Paule,-0.635131618785615,172.0,19.47,21.78423669878611,La République en marche,Front National
+69104,Jullié,-0.6445690402194483,173.0,15.79,21.78423669878611,La République en marche,Front National
+69126,Marcy,-0.6603674345961119,174.0,14.82,21.78423669878611,La République en marche,La République en marche
+69283,Mions,-0.6716173914059511,175.0,20.4,21.7624275899677,La République en marche,La République en marche
+69082,Emeringes,-0.6782901945364676,176.0,13.85,21.78423669878611,La République en marche,Front National
+69233,Saint-Romain-au-Mont-d'Or,-0.6814800132766503,177.0,15.49,21.78423669878611,La République en marche,La République en marche
+69295,Simandres,-0.6841347000358452,178.0,14.18,22.180663058004622,Front National,La République en marche
+69280,Jons,-0.685428048627525,179.0,22.66,21.78423669878611,Front National,La République en marche
+69047,Charnay,-0.688009193775446,180.0,15.94,21.78423669878611,La République en marche,La République en marche
+69132,Meys,-0.6960305834917551,181.0,16.58,21.78423669878611,Front National,Front National
+69071,Curis-au-Mont-d'Or,-0.7025620012377184,182.0,13.45,21.78423669878611,La République en marche,La République en marche
+69172,Salles-Arbuissonnas-en-Beaujolais,-0.7055728454339236,183.0,17.35,21.78423669878611,La République en marche,Front National
+69265,Ville-sur-Jarnioux,-0.7076503110540348,184.0,12.52,21.78423669878611,La République en marche,La République en marche
+69057,Chevinay,-0.7105393179112507,185.0,17.82,21.78423669878611,La République en marche,Front National
+69217,Saint-Just-d'Avray,-0.7219399416972881,186.0,18.59,21.78423669878611,La République en marche,Front National
+69258,Vauxrenard,-0.7369778427416361,187.0,14.93,21.78423669878611,La République en marche,Front National
+69155,Pomeys,-0.7392377011270224,188.0,16.77,21.78423669878611,La République en marche,Front National
+69075,Dième,-0.7489896456369601,189.0,10.94,21.78423669878611,Front National,Front National
+69001,Affoux,-0.7584460948037363,190.0,18.99,21.78423669878611,Front National,Front National
+69130,Meaux-la-Montagne,-0.7698486696662167,191.0,13.61,21.78423669878611,Front National,Front National
+69058,Chiroubles,-0.7751786016663124,192.0,17.84,21.78423669878611,La République en marche,Front National
+69272,Communay,-0.7759833929973117,193.0,16.9,21.5915100983473,La République en marche,La République en marche
+69106,Lachassagne,-0.7823107008671678,194.0,11.44,21.78423669878611,La République en marche,La République en marche
+69212,Saint-Jean-des-Vignes,-0.7863628302661766,195.0,16.88,21.78423669878611,La République en marche,La République en marche
+69179,Beauvallon,-0.7985350939981404,196.0,16.43,21.934095134246054,La République en marche,La République en marche
+69179,Saint-Andéol-le-Château,-0.7985350939981404,196.0,16.43,21.934095134246054,La République en marche,La République en marche
+69138,Montromant,-0.8079066124425183,197.0,15.8,21.78423669878611,La République en marche,Front National
+69141,Mornant,-0.8387846672327005,198.0,18.53,20.839120709016733,La République en marche,La République en marche
+69068,Couzon-au-Mont-d'Or,-0.8482887673338095,199.0,19.38,21.815566178028647,La République en marche,La République en marche
+69136,Montagny,-0.8644226005034028,200.0,16.1,22.139740920913944,La République en marche,La République en marche
+69176,Soucieu-en-Jarrest,-0.8839658298681036,201.0,18.75,21.8524345381981,La République en marche,La République en marche
+69083,Eveux,-0.8860869155735906,202.0,12.69,21.78423669878611,La République en marche,La République en marche
+69186,Saint-Clément-de-Vers,-0.8907797812931552,203.0,18.46,21.78423669878611,Front National,Front National
+69094,Grézieu-la-Varenne,-0.9317378172334189,204.0,18.87,24.204100632267387,La République en marche,La République en marche
+69225,Saint-Marcel-l'Eclairé,-0.9362444370858948,205.0,16.92,21.78423669878611,La République en marche,Front National
+69250,La Tour-de-Salvagny,-0.9461360127097973,206.0,14.15,21.969446379676786,La République en marche,La République en marche
+69050,Châtillon,-0.955855574587166,207.0,19.42,21.78423669878611,La République en marche,La République en marche
+69153,Poleymieux-au-Mont-d'Or,-0.9560230824503999,208.0,12.29,21.78423669878611,La République en marche,La République en marche
+69193,Saint-Cyr-sur-le-Rhône,-0.9686880101823112,209.0,15.4,22.042967211393613,La République en marche,La République en marche
+69069,Craponne,-0.9717100859021399,210.0,20.04,21.710302748807702,La République en marche,La République en marche
+69241,Taluyers,-0.995807520470766,211.0,17.31,21.78423669878611,La République en marche,La République en marche
+69249,Thurins,-1.0092056153165407,212.0,17.11,21.78423669878611,La République en marche,La République en marche
+69054,Chénelette,-1.0104804857646463,213.0,15.97,21.78423669878611,Front National,Front National
+69271,Chassieu,-1.0114074053652171,214.0,19.79,24.95763434396592,La République en marche,La République en marche
+69255,Vaugneray,-1.0131966463996225,215.0,17.52,21.78423669878611,La République en marche,La République en marche
+69177,Sourcieux-les-Mines,-1.02089565821252,216.0,15.92,21.78423669878611,La République en marche,La République en marche
+69035,Cenves,-1.0982910797715055,217.0,18.45,21.78423669878611,La République en marche,Front National
+69134,Moiré,-1.1128963346457772,218.0,17.1,21.78423669878611,La République en marche,La République en marche
+69180,Saint-André-la-Côte,-1.142956354066902,219.0,14.81,21.78423669878611,La République en marche,La République en marche
+69027,Brignais,-1.1470732930486816,220.0,23.21,24.0761084083851,La République en marche,La République en marche
+69282,Meyzieu,-1.2129641804132034,221.0,26.48,21.866647034529276,La France insoumise,La France insoumise
+69205,Saint-Genis-les-Ollières,-1.2678885292358586,222.0,15.42,21.716810825745917,La République en marche,La République en marche
+69279,Jonage,-1.3175637592253322,223.0,18.35,22.665130837234468,La République en marche,La République en marche
+69289,Saint-Pierre-de-Chandieu,-1.329671985362471,224.0,19.36,21.95914730973835,Front National,La République en marche
+69154,Pollionnay,-1.3738432837453045,225.0,14.17,21.78423669878611,La République en marche,La République en marche
+69089,Francheville,-1.3800742234790406,226.0,17.44,23.055693679848343,La République en marche,La République en marche
+69127,Marcy-l'Etoile,-1.4812261271571436,227.0,16.43,21.78423669878611,La République en marche,La République en marche
+69016,Azolette,-1.4966255305756067,228.0,21.54,21.78423669878611,La République en marche,Front National
+69190,Sainte-Consorce,-1.5384593507842843,229.0,16.98,21.78423669878611,La République en marche,La République en marche
+69140,Morancé,-1.559380746329051,230.0,13.79,21.78423669878611,La République en marche,La République en marche
+69298,Toussieu,-1.5972910284993145,231.0,16.88,24.476183474105287,La République en marche,La République en marche
+69208,Saint-Germain-sur-l'Arbresle,-1.6093350910050899,232.0,13.25,22.042967211393613,La République en marche,La République en marche
+69208,Saint-Germain-Nuelles,-1.6093350910050899,232.0,13.25,22.042967211393613,La République en marche,La République en marche
+69192,Saint-Cyr-le-Chatoux,-1.6348456668711777,233.0,5.34,21.78423669878611,La République en marche,La République en marche
+69086,Fleurieux-sur-l'Arbresle,-1.6808437933749116,234.0,15.77,21.78423669878611,La République en marche,La République en marche
+69122,Lucenay,-1.6852812679465745,235.0,14.16,21.78423669878611,La République en marche,La République en marche
+69052,Chazay-d'Azergues,-1.6853097213455612,236.0,17.52,22.042967211393613,La République en marche,La République en marche
+69148,Orliénas,-1.6904219346291987,237.0,14.95,21.78423669878611,La République en marche,La République en marche
+69287,Saint-Bonnet-de-Mure,-1.7208174025151268,238.0,18.76,21.78423669878611,La République en marche,La République en marche
+69156,Pommiers,-1.7301937885247431,239.0,15.93,21.959377460671476,La République en marche,La République en marche
+69072,Dardilly,-1.7613829924652573,240.0,18.73,24.795148674094897,La République en marche,La République en marche
+69270,Chaponnay,-1.7640741355735432,241.0,16.5,21.76857733288102,La République en marche,La République en marche
+69133,Millery,-1.8248293007005152,242.0,15.54,21.78423669878611,La République en marche,La République en marche
+69204,Saint-Genis-Laval,-1.8258880249711291,243.0,19.43,24.30730423317571,La République en marche,La République en marche
+69028,Brindas,-1.827777277715423,244.0,15.95,24.204100632267387,La République en marche,La République en marche
+69081,Ecully,-1.89193508493639,245.0,19.53,23.88586684064273,La République en marche,La République en marche
+69268,Vourles,-2.0987557202660887,246.0,16.14,23.00695966392384,La République en marche,La République en marche
+69284,Montanay,-2.11802517598638,247.0,14.59,22.042967211393613,La République en marche,La République en marche
+69277,Genas,-2.13285345587985,248.0,18.68,24.882874165259608,La République en marche,La République en marche
+69112,Lentilly,-2.1523464448890137,249.0,16.81,22.042967211393613,La République en marche,La République en marche
+69043,Chaponost,-2.201169194281195,250.0,17.23,24.606873930854807,La République en marche,La République en marche
+69049,Chasselay,-2.236559181559461,251.0,18.92,21.78423669878611,La République en marche,La République en marche
+69117,Lissieu,-2.253289466561485,252.0,16.82,21.78423669878611,La République en marche,La République en marche
+69293,Sathonay-Village,-2.5066759231791833,253.0,15.12,21.78423669878611,La République en marche,La République en marche
+69046,Charly,-2.535244643114088,254.0,13.75,23.13868654478407,La République en marche,La République en marche
+69116,Limonest,-2.5353025372598323,255.0,15.56,22.267605428245837,La République en marche,La République en marche
+69087,Fontaines-Saint-Martin,-2.5656497271459813,256.0,16.85,22.042967211393613,La République en marche,La République en marche
+69033,Cailloux-sur-Fontaines,-2.634143036901624,257.0,14.56,21.78423669878611,La République en marche,La République en marche
+69076,Dommartin,-2.921237222678518,258.0,13.37,23.04058277128804,La République en marche,La République en marche
+69044,Charbonnières-les-Bains,-2.962289338139466,259.0,14.01,21.39447342655107,La République en marche,La République en marche
+69063,Collonges-au-Mont-d'Or,-2.979104024305155,260.0,17.8,22.124455312273433,La République en marche,La République en marche
+69202,Sainte-Foy-lès-Lyon,-3.994445541151111,261.0,17.29,23.771960146629173,La République en marche,La République en marche
+69034,Caluire-et-Cuire,-4.305036976140985,262.0,22.17,21.64018139995735,La République en marche,La République en marche
+69191,Saint-Cyr-au-Mont-d'Or,-4.4005960200981455,263.0,18.41,23.98062676016268,La République en marche,La République en marche
+69244,Tassin-la-Demi-Lune,-4.695423557660979,264.0,19.74,21.751176463720565,La République en marche,La République en marche
+69194,Saint-Didier-au-Mont-d'Or,-4.790963904965907,265.0,16.51,21.53140451928775,La République en marche,La République en marche
+69101,Jarnioux,,,,,,
+69114,Liergues,,,,,,
+69128,Mardore,,,,,,
+69129,Marnand,,,,,,
+69144,Nuelles,,,,,,
+69146,Oingt,,,,,,
+69147,Les Olmes,,,,,,
+69015,Avenas,,,,,,
+69150,Ouroux,,,,,,
+69152,Pierre-Bénite,,,,,,
+69158,Pont-Trambouze,,,,,,
+69159,Pouilly-le-Monial,,,,,,
+69185,Saint-Christophe,,,,,,
+69195,Saint-Didier-sous-Riverie,,,,,,
+69210,Saint-Jacques-des-Arrêts,,,,,,
+69211,Saint-Jean-d'Ardières,,,,,,
+69213,Saint-Jean-de-Touslas,,,,,,
+69221,Saint-Laurent-de-Vaux,,,,,,
+69222,Saint-Laurent-d'Oingt,,,,,,
+69223,Saint-Loup,,,,,,
+69224,Saint-Mamert,,,,,,
+69237,Saint-Sorlin,,,,,,
+69247,Thel,,,,,,
+69025,Bourg-de-Thizy,,,,,,
+69251,Trades,,,,,,
+69041,La Chapelle-de-Mardore,,,,,,
+69048,Chassagny,,,,,,
+69073,Dareizé,,,,,,
+69159,Porte des Pierres Dorées,,,,,,
+69185,Saint-Christophe-la-Montagne,,,,,,
