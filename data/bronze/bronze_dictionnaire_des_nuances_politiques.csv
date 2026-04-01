@@ -1,90 +1,90 @@
 Nuance;Libellé;extraction_source_url;ingestion_timestamp;source_file_name
-EXG;Extrême gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-COM;Communiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-PG;Parti de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-SOC;Socialiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-RDG;Radical de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DVG;Divers gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-VEC;Europe Ecologie / Les Verts;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-ECO;Ecologiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-REG;Régionaliste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-AUT;Autres;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-MODM;MODEM;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-M-NC;Majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-M;Autres candidats majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-UMP;Union pour un Mouvement Populaire;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DVD;Divers droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-FN;Front National;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-EXD;Extrême droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LEXG;Liste d'extrême-gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LCOP;Liste du PCF et du Parti de gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LSOC;Liste du Parti socialiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDVG;Liste divers gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LVEC;Liste des Verts;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LREG;Liste régionaliste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LAUT;Autre liste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LCMD;Liste centre-MoDem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LMAJ;Liste de la majorité ;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDVD;Liste divers droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDSV;Liste souverainiste de droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LFN;Liste du Front national;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LEXD;Liste d'extrême-droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LFG;Liste Front de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LPG;Liste du Parti de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LCOM;Liste du Parti communiste français;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUG;Liste Union de la Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDIV;Liste Divers;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LMDM;Liste Modem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUC;Liste Union du Centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUDI;Liste Union Démocrates et Indépendants;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUMP;Liste Union pour un Mouvement Populaire;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUD;Liste Union de la Droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-CPNT;Chasse Pêche Nature Traditions;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DIV;Divers;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-UDFD;UDF-Mouvement Démocrate;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-MAJ;Majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-MPF;Mouvement pour la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-FG;Front de gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-CEN;Le Centre pour la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-ALLI;Alliance centriste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-PRV;Parti radical;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-NCE;Nouveau Centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-FI;La France insoumise;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-REM;La République en marche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-MDM;Modem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-UDI;Union des Démocrates et Indépendants;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LR;Les Républicains;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DLF;Debout la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DXG;Divers extrême gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-NUP;Nouvelle union populaire écologique et sociale;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-ENS;Ensemble ! (Majorité présidentielle);https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DVC;Divers centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DSV;Droite souverainiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-REC;Reconquête !;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-RN;Rassemblement National;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DXD;Divers extrême droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LFI;La France insoumise;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LRDG;Parti radical de gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LECO;Ecologiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LGJ;Gilets jaunes;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LREM;La République en marche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDVC;Divers centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LLR;Les Républicains;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDLF;Debout la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LRN;Rassemblement National;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LGC;Liste gauche-centristes;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LMC;Liste majorité-centristes;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LNC;Non Communiqué;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LVEG;Liste EELV et gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUGE;Liste d'union à gauche avec des écologiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUCG;Liste d'union au centre et à gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUCD;Liste d'union au centre et à droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LUXD;Liste d'union à l'extrême-droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LMMD;Liste Majorité-MoDem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LCEN;Liste d'union du centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LDLR;Liste Debout la République;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-DLR;Debout la République;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-LMP;Majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-03-28T22:27:49.891940;dictionnaire des nuances politiques.csv
-RES;Résistons !;manual_correction;2026-03-28T22:27:49.915592;manual_correction
-MODEM;Mouvement démocrate;manual_correction;2026-03-28T22:27:49.915592;manual_correction
-EELV;Europe Écologie Les Verts;manual_correction;2026-03-28T22:27:49.915592;manual_correction
+EXG;Extrême gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+COM;Communiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+PG;Parti de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+SOC;Socialiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+RDG;Radical de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DVG;Divers gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+VEC;Europe Ecologie / Les Verts;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+ECO;Ecologiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+REG;Régionaliste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+AUT;Autres;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+MODM;MODEM;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+M-NC;Majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+M;Autres candidats majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+UMP;Union pour un Mouvement Populaire;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DVD;Divers droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+FN;Front National;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+EXD;Extrême droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LEXG;Liste d'extrême-gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LCOP;Liste du PCF et du Parti de gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LSOC;Liste du Parti socialiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDVG;Liste divers gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LVEC;Liste des Verts;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LREG;Liste régionaliste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LAUT;Autre liste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LCMD;Liste centre-MoDem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LMAJ;Liste de la majorité ;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDVD;Liste divers droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDSV;Liste souverainiste de droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LFN;Liste du Front national;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LEXD;Liste d'extrême-droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LFG;Liste Front de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LPG;Liste du Parti de Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LCOM;Liste du Parti communiste français;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUG;Liste Union de la Gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDIV;Liste Divers;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LMDM;Liste Modem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUC;Liste Union du Centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUDI;Liste Union Démocrates et Indépendants;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUMP;Liste Union pour un Mouvement Populaire;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUD;Liste Union de la Droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+CPNT;Chasse Pêche Nature Traditions;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DIV;Divers;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+UDFD;UDF-Mouvement Démocrate;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+MAJ;Majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+MPF;Mouvement pour la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+FG;Front de gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+CEN;Le Centre pour la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+ALLI;Alliance centriste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+PRV;Parti radical;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+NCE;Nouveau Centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+FI;La France insoumise;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+REM;La République en marche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+MDM;Modem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+UDI;Union des Démocrates et Indépendants;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LR;Les Républicains;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DLF;Debout la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DXG;Divers extrême gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+NUP;Nouvelle union populaire écologique et sociale;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+ENS;Ensemble ! (Majorité présidentielle);https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DVC;Divers centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DSV;Droite souverainiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+REC;Reconquête !;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+RN;Rassemblement National;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DXD;Divers extrême droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LFI;La France insoumise;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LRDG;Parti radical de gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LECO;Ecologiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LGJ;Gilets jaunes;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LREM;La République en marche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDVC;Divers centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LLR;Les Républicains;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDLF;Debout la France;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LRN;Rassemblement National;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LGC;Liste gauche-centristes;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LMC;Liste majorité-centristes;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LNC;Non Communiqué;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LVEG;Liste EELV et gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUGE;Liste d'union à gauche avec des écologiste;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUCG;Liste d'union au centre et à gauche;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUCD;Liste d'union au centre et à droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LUXD;Liste d'union à l'extrême-droite;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LMMD;Liste Majorité-MoDem;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LCEN;Liste d'union du centre;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LDLR;Liste Debout la République;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+DLR;Debout la République;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+LMP;Majorité présidentielle;https://www.data.gouv.fr/api/1/datasets/r/6fd17a6c-519b-465c-a7fd-ad2955fafc76;2026-04-01T19:26:19.525011;dictionnaire des nuances politiques.csv
+RES;Résistons !;manual_correction;2026-04-01T19:26:19.554307;manual_correction
+MODEM;Mouvement démocrate;manual_correction;2026-04-01T19:26:19.554307;manual_correction
+EELV;Europe Écologie Les Verts;manual_correction;2026-04-01T19:26:19.554307;manual_correction

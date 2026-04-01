@@ -25,6 +25,7 @@ seaborn==0.13.2
 # -------- Data Exploration & Cleaning --------
 missingno==0.5.2
 openpyxl>=3.1.2
+xlrd>=2.0.1
 
 # -------- Data Access & HTTP --------
 requests==2.32.3
@@ -42,4 +43,3 @@ duckdb==1.5.1
 # black>=23.0.0
 # pytest>=7.0.0
 # pylint>=2.0.0
-

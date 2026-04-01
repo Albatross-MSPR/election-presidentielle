@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Electio Analytics — Métropole de Lyon</title>
+  <title>Electio Analytics — Rhône (69)</title>
   <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
@@ -89,14 +89,14 @@
     <div class="row g-3">
       <div class="col-lg-6">
         <div class="chart-card">
-          <div class="chart-title">Abstention moyenne par scrutin</div>
+          <div id="overview-avg-abs-title" class="chart-title">Abstention moyenne par scrutin</div>
           <div id="chart-avg-abs" style="height:300px"></div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
           <div class="d-flex align-items-center gap-2 mb-1">
-            <div id="nuance-pie-title" class="chart-title mb-0">Répartition des voix par nuance — 2022 T2</div>
+            <div id="nuance-pie-title" class="chart-title mb-0">Répartition des voix par nuance</div>
             <select id="nuance-pie-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
           </div>
           <div id="chart-nuance-pie" style="height:300px"></div>
@@ -104,14 +104,14 @@
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
-          <div class="chart-title">Top 20 communes — Score de vulnérabilité</div>
+          <div id="vuln-overview-title" class="chart-title">Top 20 communes — score de vulnérabilité</div>
           <div id="chart-vuln-overview" style="height:320px"></div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
           <div class="d-flex align-items-center gap-2 mb-1">
-            <div id="abs-overview-title" class="chart-title mb-0">Top 20 communes — Abstention 2022 T2</div>
+            <div id="abs-overview-title" class="chart-title mb-0">Top 20 communes — abstention</div>
             <select id="abs-overview-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
           </div>
           <div id="chart-abs-overview" style="height:320px"></div>
@@ -125,7 +125,7 @@
     <div class="row g-3">
       <div class="col-12">
         <div class="chart-card">
-          <div class="chart-title">Abstention moyenne (%) par scrutin — Métropole de Lyon</div>
+          <div id="participation-avg-title" class="chart-title">Abstention moyenne (%) par scrutin</div>
           <div id="chart-abs-by-election" style="height:300px"></div>
         </div>
       </div>
@@ -141,7 +141,7 @@
       <div class="col-12">
         <div class="chart-card">
           <div class="d-flex align-items-center gap-2 mb-1">
-            <div id="abs-ranked-title" class="chart-title mb-0">Classement abstention — 2022 T2 (toutes communes)</div>
+            <div id="abs-ranked-title" class="chart-title mb-0">Classement abstention</div>
             <select id="abs-ranked-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
           </div>
           <div id="chart-abs-ranked" style="height:600px; overflow:hidden"></div>
@@ -159,14 +159,14 @@
           <select id="election-select" class="form-select form-select-sm"></select>
         </div>
         <div class="chart-card">
-          <div class="chart-title">Voix par nuance politique</div>
+          <div id="nuance-bar-title" class="chart-title">Part des voix par nuance — scrutin sélectionné</div>
           <div id="chart-nuance-bar" style="height:350px"></div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
           <div class="d-flex align-items-center gap-2 mb-1">
-            <div id="dom-nuance-title" class="chart-title mb-0">Nuance dominante par commune (carte par rang) — 2022 T2</div>
+            <div id="dom-nuance-title" class="chart-title mb-0">Répartition des communes par nuance dominante</div>
             <select id="dom-nuance-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
           </div>
           <div id="chart-dom-nuance" style="height:380px"></div>
@@ -174,7 +174,7 @@
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
-          <div class="chart-title">Évolution des finalistes du second tour</div>
+          <div id="nuance-evolution-title" class="chart-title">Évolution des finalistes du second tour</div>
           <div id="chart-nuance-evolution" style="height:380px"></div>
         </div>
       </div>
@@ -186,7 +186,7 @@
     <div class="row g-3">
       <div class="col-lg-7">
         <div class="chart-card">
-          <div class="chart-title">Score de vulnérabilité composite — Top 30 communes (PCA)</div>
+          <div id="vuln-full-title" class="chart-title">Score de vulnérabilité composite — Top 30 communes (PCA)</div>
           <div id="chart-vuln-full" style="height:560px"></div>
         </div>
       </div>
@@ -199,13 +199,13 @@
           <div id="chart-vuln-scatter" style="height:360px"></div>
         </div>
         <div class="chart-card mt-3">
-          <div class="chart-title">Distribution des scores de vulnérabilité</div>
+          <div id="vuln-hist-title" class="chart-title">Distribution des scores de vulnérabilité</div>
           <div id="chart-vuln-hist" style="height:180px"></div>
         </div>
       </div>
       <div class="col-12">
         <div class="chart-card">
-          <div class="chart-title">Nuance prédite vs vulnérabilité — Profil complet</div>
+          <div id="nuance-vuln-title" class="chart-title">Score de vulnérabilité moyen par nuance réelle</div>
           <div id="chart-nuance-vuln" style="height:300px"></div>
         </div>
       </div>
@@ -217,25 +217,25 @@
     <div class="row g-3">
       <div class="col-lg-6">
         <div class="chart-card">
-          <div class="chart-title">Projection consensus 2023–2025 — Top 20 communes à risque</div>
+          <div id="proj-top20-title" class="chart-title">Top 20 communes — projection consensus 2025</div>
           <div id="chart-proj-top20" style="height:400px"></div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
-          <div class="chart-title">Comparaison méthodes de projection (linéaire vs ML vs consensus)</div>
+          <div id="proj-compare-title" class="chart-title">Comparaison des méthodes de projection par commune</div>
           <select id="commune-select-proj" class="form-select form-select-sm mb-2"></select>
           <div id="chart-proj-compare" style="height:340px"></div>
         </div>
       </div>
       <div class="col-12">
         <div class="chart-card">
-          <div class="chart-title">Distribution — Abstention 2022 observée vs projection consensus 2025</div>
+          <div id="proj-dist-title" class="chart-title">Distribution — abstention observée 2022 vs projection consensus 2025</div>
           <div id="chart-proj-dist" style="height:260px"></div>
         </div>
       </div>
       <div class="col-12">
-        <div class="section-header">Communes signalées à risque (projection consensus 2025 &gt;= 40%)</div>
+        <div id="risk-table-title" class="section-header">Communes signalées à risque (projection consensus 2025 &gt;= 40%, base 2022 T1)</div>
         <div class="card p-2"><div id="risk-table"></div></div>
       </div>
     </div>
@@ -253,7 +253,7 @@
       <div class="col-lg-6">
         <div class="chart-card">
           <div class="d-flex align-items-center gap-2 mb-1">
-            <div class="chart-title mb-0">Taux moyen par indicateur</div>
+            <div id="sec-bar-title" class="chart-title mb-0">Taux communal moyen diffusé par indicateur</div>
             <select id="sec-year-select" class="form-select form-select-sm ms-auto"></select>
           </div>
           <div id="chart-sec-bar" style="height:360px"></div>
@@ -261,7 +261,7 @@
       </div>
       <div class="col-lg-6">
         <div class="chart-card">
-          <div class="chart-title">Top 20 communes — Taux de cambriolages (dernière année)</div>
+          <div id="sec-commune-title" class="chart-title">Top 20 communes — taux de cambriolages de logement</div>
           <div id="chart-sec-commune" style="height:360px"></div>
         </div>
       </div>
@@ -298,7 +298,7 @@
       </div>
       <div class="col-12">
         <div class="chart-card">
-          <div class="chart-title">Nuance réelle vs nuance prédite — 2022 T2</div>
+          <div id="nuance-pred-title" class="chart-title">Répartition des nuances réelles vs prédites</div>
           <div id="chart-nuance-pred" style="height:320px"></div>
         </div>
       </div>
@@ -408,6 +408,14 @@ function prettyFeatureName(name) {
   if (name.startsWith("fil_")) return name.replace(/^fil_/, "").replaceAll("_", " ");
   return name;
 }
+function comparableSuffix() {
+  const comparable = DATA.dashboard_meta?.election_shared_communes;
+  return comparable ? ` (${comparable} communes comparables)` : "";
+}
+function crossDomainSuffix() {
+  const cross = DATA.dashboard_meta?.cross_domain_communes;
+  return cross ? ` (${cross} communes croisées)` : "";
+}
 function hydrateHeader() {
   const meta = DATA.dashboard_meta || {};
   const comparable = meta.election_shared_communes ?? DATA.dim_commune.length;
@@ -454,7 +462,7 @@ function buildKPIs() {
     { val: comparableCount, label: "Communes comparables (6 scrutins)" },
     { val: crossDomainCount, label: "Communes croisées (multi-source)" },
     { val: avgAbs + "%", label: "Abstention moyenne 2022 T2" },
-    { val: highAbsCount, label: "Communes > 30% abstention 2022" },
+    { val: highAbsCount, label: "Communes > 30% abstention 2022 T2" },
     { val: maxVulnCommune.libelle_commune || "—", label: "Commune la plus vulnérable" },
     { val: "18", label: "Indicateurs sécuritaires" },
   ];
@@ -472,6 +480,11 @@ function buildKPIs() {
 //  OVERVIEW CHARTS
 // ─────────────────────────────────────────────
 function buildOverviewCharts() {
+  const overviewAvgTitle = document.getElementById("overview-avg-abs-title");
+  const vulnOverviewTitle = document.getElementById("vuln-overview-title");
+  if (overviewAvgTitle) overviewAvgTitle.textContent = `Abstention moyenne par scrutin${comparableSuffix()}`;
+  if (vulnOverviewTitle) vulnOverviewTitle.textContent = `Top 20 communes — score de vulnérabilité${crossDomainSuffix()}`;
+
   // Average abstention bar
   const avgData = DATA.avg_abstention_per_election.sort((a,b)=>a.label.localeCompare(b.label));
   Plotly.newPlot("chart-avg-abs", [{
@@ -497,7 +510,7 @@ function buildOverviewCharts() {
   function drawNuancePie(electionId) {
     const selected = pieElectionById.get(electionId) || { id_election: electionId };
     const selectedLabel = pieElectionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
-    if (nuancePieTitle) nuancePieTitle.textContent = `Répartition des voix par nuance — ${selectedLabel}`;
+    if (nuancePieTitle) nuancePieTitle.textContent = `Répartition des voix par nuance — ${selectedLabel}${comparableSuffix()}`;
     const rows = DATA.nuance_share_per_election
       .filter(r=>r.id_election===electionId)
       .sort((a,b)=>b.voix-a.voix);
@@ -540,7 +553,7 @@ function buildOverviewCharts() {
   function drawAbsOverview(electionId) {
     const selected = absOverviewElectionById.get(electionId) || { id_election: electionId };
     const selectedLabel = absOverviewElectionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
-    if (absOverviewTitle) absOverviewTitle.textContent = `Top 20 communes — Abstention ${selectedLabel}`;
+    if (absOverviewTitle) absOverviewTitle.textContent = `Top 20 communes — abstention ${selectedLabel}${comparableSuffix()}`;
     const top20a = DATA.participation_detail
       .filter(r=>r.id_election===electionId)
       .slice()
@@ -563,6 +576,12 @@ function buildOverviewCharts() {
 //  PARTICIPATION CHARTS
 // ─────────────────────────────────────────────
 function buildParticipationCharts() {
+  const meta = DATA.dashboard_meta || {};
+  const participationAvgTitle = document.getElementById("participation-avg-title");
+  if (participationAvgTitle) {
+    participationAvgTitle.textContent = `Abstention moyenne (%) par scrutin — ${meta.territory_label || "Rhône (69)"}${comparableSuffix()}`;
+  }
+
   // Bar by election
   const avgData = DATA.avg_abstention_per_election.sort((a,b)=>a.label.localeCompare(b.label));
   Plotly.newPlot("chart-abs-by-election", [{
@@ -608,7 +627,7 @@ function buildParticipationCharts() {
   function drawAbsRanked(electionId) {
     const selected = absRankedElectionById.get(electionId) || { id_election: electionId };
     const selectedLabel = absRankedElectionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
-    if (absRankedTitle) absRankedTitle.textContent = `Classement abstention — ${selectedLabel} (toutes communes)`;
+    if (absRankedTitle) absRankedTitle.textContent = `Classement abstention — ${selectedLabel}${comparableSuffix()}`;
     const ranked = DATA.participation_detail
       .filter(r=>r.id_election===electionId)
       .slice()
@@ -632,8 +651,10 @@ function buildParticipationCharts() {
 function buildResultatsCharts() {
   const elections = DATA.dim_election.slice().sort((a,b)=>a.id_election.localeCompare(b.id_election));
   const sel = document.getElementById("election-select");
+  const nuanceBarTitle = document.getElementById("nuance-bar-title");
   const domSel = document.getElementById("dom-nuance-election-select");
   const domTitle = document.getElementById("dom-nuance-title");
+  const nuanceEvolutionTitle = document.getElementById("nuance-evolution-title");
   elections.forEach(e => {
     const o = document.createElement("option");
     o.value = e.id_election; o.textContent = elecLabel(e); sel.appendChild(o);
@@ -651,6 +672,7 @@ function buildResultatsCharts() {
   function drawNuanceBar(elec_id) {
     const selected = electionById.get(elec_id) || { id_election: elec_id };
     const selectedLabel = electionById.has(elec_id) ? elecLabel(selected) : elecLabelFromId(elec_id);
+    if (nuanceBarTitle) nuanceBarTitle.textContent = `Part des voix par nuance — ${selectedLabel}${comparableSuffix()}`;
     const rows = DATA.nuance_share_per_election.filter(r=>r.id_election===elec_id)
       .filter(r=>r.pct>=0.5).sort((a,b)=>b.pct-a.pct);
     Plotly.newPlot("chart-nuance-bar", [{
@@ -665,7 +687,7 @@ function buildResultatsCharts() {
     const byNuance = groupBy(dom, "libelle_nuance");
     const nuanceCounts = Object.entries(byNuance).map(([n,r])=>({nuance:n,count:r.length}))
       .sort((a,b)=>b.count-a.count);
-    if (domTitle) domTitle.textContent = `Nuance dominante par commune (carte par rang) — ${selectedLabel}`;
+    if (domTitle) domTitle.textContent = `Répartition des communes par nuance dominante — ${selectedLabel}${comparableSuffix()}`;
     Plotly.newPlot("chart-dom-nuance", [{
       type:"bar", x:nuanceCounts.map(r=>r.nuance), y:nuanceCounts.map(r=>r.count),
       marker:{color:nuanceCounts.map(r=>nc(r.nuance))},
@@ -701,6 +723,7 @@ function buildResultatsCharts() {
     connectgaps: false,
     hovertemplate: n+"<br>%{y:.1f}%<extra></extra>"
   }));
+  if (nuanceEvolutionTitle) nuanceEvolutionTitle.textContent = `Évolution des finalistes du second tour${comparableSuffix()}`;
   Plotly.newPlot("chart-nuance-evolution", traces,
     layout({
       yaxis:{title:"%"},
@@ -714,6 +737,14 @@ function buildResultatsCharts() {
 //  VULNERABILITY CHARTS
 // ─────────────────────────────────────────────
 function buildVulnCharts() {
+  const vulnFullTitle = document.getElementById("vuln-full-title");
+  const vulnHistTitle = document.getElementById("vuln-hist-title");
+  const nuanceVulnTitle = document.getElementById("nuance-vuln-title");
+  const mlElectionLabel = DATA.model_comparison?.metadata?.latest_election_label || "notebook courant";
+  if (vulnFullTitle) vulnFullTitle.textContent = `Score de vulnérabilité composite — Top 30 communes${crossDomainSuffix()} (PCA)`;
+  if (vulnHistTitle) vulnHistTitle.textContent = `Distribution des scores de vulnérabilité${crossDomainSuffix()}`;
+  if (nuanceVulnTitle) nuanceVulnTitle.textContent = `Score de vulnérabilité moyen par nuance réelle — ${mlElectionLabel}${crossDomainSuffix()}`;
+
   // Top 30
   const top30 = DATA.vulnerability_scores.slice(0,30).reverse();
   Plotly.newPlot("chart-vuln-full", [{
@@ -800,11 +831,20 @@ function buildVulnCharts() {
 // ─────────────────────────────────────────────
 function buildProjectionCharts() {
   const proj = DATA.abstention_projections;
+  const projComparable = proj.filter(r => r.abstention_2022_observed != null);
+  const projTop20Title = document.getElementById("proj-top20-title");
+  const projCompareTitle = document.getElementById("proj-compare-title");
+  const projDistTitle = document.getElementById("proj-dist-title");
+  const riskTitle = document.getElementById("risk-table-title");
+  if (projTop20Title) projTop20Title.textContent = `Top 20 communes — projection consensus 2025${comparableSuffix()}`;
+  if (projCompareTitle) projCompareTitle.textContent = "Comparaison des méthodes de projection par commune (base observée 2022 T1)";
+  if (projDistTitle) projDistTitle.textContent = `Distribution — abstention observée 2022 T1 vs projection consensus 2025${comparableSuffix()}`;
+  if (riskTitle) riskTitle.textContent = "Communes signalées à risque (projection consensus 2025 >= 40%, base 2022 T1)";
 
   // Top 20 by consensus 2025
   const top20 = proj.slice().sort((a,b)=>b.consensus_proj_2025-a.consensus_proj_2025).slice(0,20).reverse();
   Plotly.newPlot("chart-proj-top20", [
-    { name:"2022 Observé", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.abstention_2022_observed), marker:{color:"#94a3b8"} },
+    { name:"2022 T1 observé", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.abstention_2022_observed), marker:{color:"#94a3b8"} },
     { name:"2023 consensus", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.consensus_proj_2023), marker:{color:"#2a7ab5"} },
     { name:"2025 consensus", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.consensus_proj_2025), marker:{color:"#e63329"} },
   ], layout({ barmode:"group", margin:{t:10,r:20,b:30,l:140}, xaxis:{title:"%"},
@@ -812,26 +852,46 @@ function buildProjectionCharts() {
 
   // Commune selector for method comparison
   const sel = document.getElementById("commune-select-proj");
-  sortedCommunes().forEach(c => {
-    const o = document.createElement("option"); o.value=c.id_commune; o.textContent=c.libelle_commune; sel.appendChild(o);
-  });
+  projComparable
+    .slice()
+    .sort((a,b)=>(a.libelle_commune || "").localeCompare(b.libelle_commune || "", "fr"))
+    .forEach(r => {
+      const o = document.createElement("option");
+      o.value = r.id_commune;
+      o.textContent = r.libelle_commune;
+      sel.appendChild(o);
+    });
+  function renderProjUnavailable() {
+    document.getElementById("chart-proj-compare").innerHTML =
+      `<div class="text-muted small p-3">Comparaison indisponible pour cette commune.</div>`;
+  }
+  if (!projComparable.length) {
+    renderProjUnavailable();
+    return;
+  }
+  function findProjRow(id) {
+    return projComparable.find(r=>r.id_commune==id);
+  }
   function drawProjCompare(id) {
-    const row = proj.find(r=>r.id_commune==id);
-    if (!row) return;
+    const row = findProjRow(id);
+    if (!row) {
+      renderProjUnavailable();
+      return;
+    }
     const years  = [2022, 2023, 2024, 2025];
     Plotly.newPlot("chart-proj-compare", [
-      { name:"Observé 2022", mode:"markers", x:[2022], y:[row.abstention_2022_observed], marker:{color:"#1a3a5c",size:12}, hovertemplate:"%{y:.1f}%<extra></extra>" },
+      { name:"Observé 2022 T1", mode:"markers", x:[2022], y:[row.abstention_2022_observed], marker:{color:"#1a3a5c",size:12}, hovertemplate:"%{y:.1f}%<extra></extra>" },
       { name:"Linéaire", mode:"lines+markers", x:[2022,2023,2024,2025], y:[row.abstention_2022_observed,row.linear_proj_2023,row.linear_proj_2024,row.linear_proj_2025], line:{dash:"dot",color:"#2a7ab5"}, marker:{size:7} },
       { name:"ML", mode:"lines+markers", x:[2022,2023,2024,2025], y:[row.abstention_2022_observed,row.ml_proj_2023,row.ml_proj_2024,row.ml_proj_2025], line:{dash:"dash",color:"#f97316"}, marker:{size:7} },
       { name:"Consensus", mode:"lines+markers", x:[2022,2023,2024,2025], y:[row.abstention_2022_observed,row.consensus_proj_2023,row.consensus_proj_2024,row.consensus_proj_2025], line:{color:"#e63329",width:2.5}, marker:{size:8} },
     ], layout({ yaxis:{title:"%"}, xaxis:{tickvals:years}, legend:{orientation:"h",y:-0.2} }), CFG);
   }
-  drawProjCompare(sortedCommunes()[0].id_commune);
+  drawProjCompare(projComparable[0].id_commune);
   sel.addEventListener("change", ()=>drawProjCompare(sel.value));
 
   // Distribution comparison
   Plotly.newPlot("chart-proj-dist", [
-    { type:"histogram", x:proj.map(r=>r.abstention_2022_observed), name:"2022 Observé", opacity:.7, marker:{color:"#94a3b8"}, nbinsx:25 },
+    { type:"histogram", x:proj.map(r=>r.abstention_2022_observed), name:"2022 T1 observé", opacity:.7, marker:{color:"#94a3b8"}, nbinsx:25 },
     { type:"histogram", x:proj.map(r=>r.consensus_proj_2025), name:"2025 Consensus", opacity:.7, marker:{color:"#e63329"}, nbinsx:25 },
   ], layout({ barmode:"overlay", yaxis:{title:"Communes"}, xaxis:{title:"%"}, legend:{orientation:"h"} }), CFG);
 
@@ -840,7 +900,7 @@ function buildProjectionCharts() {
   const tbl = `<div class="table-responsive">
     <table class="table table-sm dash-table">
       <thead><tr>
-        <th>Commune</th><th>Abs. 2022</th><th>Proj. 2023</th><th>Proj. 2024</th><th>Proj. 2025</th><th>Tendance/an</th>
+        <th>Commune</th><th>Abs. 2022 T1</th><th>Proj. 2023</th><th>Proj. 2024</th><th>Proj. 2025</th><th>Tendance/an</th>
       </tr></thead>
       <tbody>${risk.map(r=>`<tr>
         <td>${r.libelle_commune}</td>
@@ -860,6 +920,8 @@ function buildProjectionCharts() {
 function buildSecuriteCharts() {
   const meta = DATA.dashboard_meta || {};
   const secTrendTitle = document.getElementById("sec-trend-title");
+  const secBarTitle = document.getElementById("sec-bar-title");
+  const secCommuneTitle = document.getElementById("sec-commune-title");
   const territory = meta.territory_label || "Rhône (69)";
   const crossDomain = meta.cross_domain_communes;
   if (secTrendTitle) {
@@ -894,6 +956,7 @@ function buildSecuriteCharts() {
 
   function drawSecBar(yr) {
     const rows = sec.filter(r=>r.annee===yr).sort((a,b)=>b.taux_pour_mille-a.taux_pour_mille);
+    if (secBarTitle) secBarTitle.textContent = `Taux communal moyen diffusé par indicateur — ${yr}`;
     Plotly.newPlot("chart-sec-bar", [{
       type:"bar", x:rows.map(r=>r.indicateur), y:rows.map(r=>r.taux_pour_mille),
       marker:{color:"#1a3a5c", opacity:.85},
@@ -906,6 +969,11 @@ function buildSecuriteCharts() {
   // Top 20 communes cambriolages
   const camb = DATA.securite_commune_latest.filter(r=>r.id_indicateur_securite==="SEC_001")
     .sort((a,b)=>b.taux_pour_mille-a.taux_pour_mille).slice(0,20).reverse();
+  if (secCommuneTitle) {
+    secCommuneTitle.textContent = crossDomain
+      ? `Top 20 communes — taux de cambriolages de logement (${latestY}, ${crossDomain} communes croisées)`
+      : `Top 20 communes — taux de cambriolages de logement (${latestY})`;
+  }
   Plotly.newPlot("chart-sec-commune", [{
     type:"bar", orientation:"h",
     y:camb.map(r=>r.libelle_commune), x:camb.map(r=>r.taux_pour_mille),
@@ -923,6 +991,7 @@ function buildMLCharts() {
   const currentModel = mc.current_notebook || null;
   const meta = mc.metadata || {};
   const compareTitle = document.getElementById("ml-compare-title");
+  const nuancePredTitle = document.getElementById("nuance-pred-title");
 
   // KPIs
   const metrics = currentModel ? [
@@ -1097,6 +1166,12 @@ function buildMLCharts() {
   const nuanceActual   = groupBy(profiles, "libelle_nuance");
   const nuancePred     = groupBy(profiles, "predicted_nuance");
   const allNuances = uniq([...Object.keys(nuanceActual),...Object.keys(nuancePred)]).sort();
+  const nuanceElectionLabel = meta.latest_election_label || elecLabelFromId(meta.latest_election);
+  if (nuancePredTitle) {
+    nuancePredTitle.textContent = nuanceElectionLabel && nuanceElectionLabel !== "—"
+      ? `Répartition des nuances réelles vs prédites — ${nuanceElectionLabel}${crossDomainSuffix()}`
+      : `Répartition des nuances réelles vs prédites${crossDomainSuffix()}`;
+  }
   Plotly.newPlot("chart-nuance-pred", [
     { name:"Réelle", type:"bar", x:allNuances, y:allNuances.map(n=>(nuanceActual[n]||[]).length), marker:{color:"#1a3a5c"} },
     { name:"Prédite", type:"bar", x:allNuances, y:allNuances.map(n=>(nuancePred[n]||[]).length), marker:{color:"#e63329",opacity:.75} },
