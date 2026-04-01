@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "description": "Held-out abstention regression evaluation rebuilt from the current notebook logic",
+    "latest_election": "2022_T1",
+    "latest_election_label": "2022 T1",
+    "communes_analyzed": 265,
+    "test_support": 53,
+    "latest_security_year": 2024,
+    "latest_filosofi_year": 2021
+  },
+  "metrics": {
+    "mae": 2.1106713583305927,
+    "r2": 0.5552884596641365,
+    "cv_r2": 0.4818389206428625,
+    "cv_r2_std": 0.1514258373397326
+  },
+  "points": [
+    {
+      "id_commune": "69106",
+      "libelle_commune": "Lachassagne",
+      "actual_abstention": 11.44,
+      "predicted_abstention": 16.61,
+      "abs_error": 5.17
+    },
+    {
+      "id_commune": "69137",
+      "libelle_commune": "Montmelas-Saint-Sorlin",
+      "actual_abstention": 12.01,
+      "predicted_abstention": 17.33,
+      "abs_error": 5.32
+    },
+    {
+      "id_commune": "69051",
+      "libelle_commune": "Chaussan",
+      "actual_abstention": 13.34,
+      "predicted_abstention": 17.15,
+      "abs_error": 3.81
+    },
+    {
+      "id_commune": "69130",
+      "libelle_commune": "Meaux-la-Montagne",
+      "actual_abstention": 13.61,
+      "predicted_abstention": 16.97,
+      "abs_error": 3.36
+    },
+    {
+      "id_commune": "69074",
+      "libelle_commune": "Denicé",
+      "actual_abstention": 13.73,
+      "predicted_abstention": 15.04,
+      "abs_error": 1.31
+    },
+    {
+      "id_commune": "69125",
+      "libelle_commune": "Marcilly-d'Azergues",
+      "actual_abstention": 14.7,
+      "predicted_abstention": 14.98,
+      "abs_error": 0.28
+    },
+    {
+      "id_commune": "69105",
+      "libelle_commune": "Lacenas",
+      "actual_abstention": 14.7,
+      "predicted_abstention": 17.57,
+      "abs_error": 2.87
+    },
+    {
+      "id_commune": "69113",
+      "libelle_commune": "Létra",
+      "actual_abstention": 14.83,
+      "predicted_abstention": 18.37,
+      "abs_error": 3.54
+    },
+    {
+      "id_commune": "69169",
+      "libelle_commune": "Ronno",
+      "actual_abstention": 15.37,
+      "predicted_abstention": 19.67,
+      "abs_error": 4.3
+    },
+    {
+      "id_commune": "69193",
+      "libelle_commune": "Saint-Cyr-sur-le-Rhône",
+      "actual_abstention": 15.4,
+      "predicted_abstention": 16.19,
+      "abs_error": 0.79
+    },
+    {
+      "id_commune": "69012",
+      "libelle_commune": "Les Ardillats",
+      "actual_abstention": 15.45,
+      "predicted_abstention": 15.58,
+      "abs_error": 0.13
+    },
+    {
+      "id_commune": "69086",
+      "libelle_commune": "Fleurieux-sur-l'Arbresle",
+      "actual_abstention": 15.77,
+      "predicted_abstention": 15.72,
+      "abs_error": 0.05
+    },
+    {
+      "id_commune": "69156",
+      "libelle_commune": "Pommiers",
+      "actual_abstention": 15.93,
+      "predicted_abstention": 14.59,
+      "abs_error": 1.34
+    },
+    {
+      "id_commune": "69028",
+      "libelle_commune": "Brindas",
+      "actual_abstention": 15.95,
+      "predicted_abstention": 16.52,
+      "abs_error": 0.57
+    },
+    {
+      "id_commune": "69022",
+      "libelle_commune": "Bibost",
+      "actual_abstention": 16.1,
+      "predicted_abstention": 17.37,
+      "abs_error": 1.27
+    },
+    {
+      "id_commune": "69127",
+      "libelle_commune": "Marcy-l'Etoile",
+      "actual_abstention": 16.43,
+      "predicted_abstention": 15.21,
+      "abs_error": 1.22
+    },
+    {
+      "id_commune": "69270",
+      "libelle_commune": "Chaponnay",
+      "actual_abstention": 16.5,
+      "predicted_abstention": 15.46,
+      "abs_error": 1.04
+    },
+    {
+      "id_commune": "69037",
+      "libelle_commune": "Chambost-Allières",
+      "actual_abstention": 16.67,
+      "predicted_abstention": 21.08,
+      "abs_error": 4.41
+    },
+    {
+      "id_commune": "69087",
+      "libelle_commune": "Fontaines-Saint-Martin",
+      "actual_abstention": 16.85,
+      "predicted_abstention": 15.87,
+      "abs_error": 0.98
+    },
+    {
+      "id_commune": "69298",
+      "libelle_commune": "Toussieu",
+      "actual_abstention": 16.88,
+      "predicted_abstention": 15.35,
+      "abs_error": 1.53
+    },
+    {
+      "id_commune": "69163",
+      "libelle_commune": "Quincieux",
+      "actual_abstention": 17.0,
+      "predicted_abstention": 18.21,
+      "abs_error": 1.21
+    },
+    {
+      "id_commune": "69085",
+      "libelle_commune": "Fleurieu-sur-Saône",
+      "actual_abstention": 17.05,
+      "predicted_abstention": 14.78,
+      "abs_error": 2.27
+    },
+    {
+      "id_commune": "69052",
+      "libelle_commune": "Chazay-d'Azergues",
+      "actual_abstention": 17.52,
+      "predicted_abstention": 16.39,
+      "abs_error": 1.13
+    },
+    {
+      "id_commune": "69178",
+      "libelle_commune": "Souzy",
+      "actual_abstention": 17.92,
+      "predicted_abstention": 17.92,
+      "abs_error": 0.0
+    },
+    {
+      "id_commune": "69123",
+      "libelle_commune": "Lyon",
+      "actual_abstention": 18.05,
+      "predicted_abstention": 21.3,
+      "abs_error": 3.25
+    },
+    {
+      "id_commune": "69239",
+      "libelle_commune": "Saint-Vérand",
+      "actual_abstention": 18.1,
+      "predicted_abstention": 18.08,
+      "abs_error": 0.02
+    },
+    {
+      "id_commune": "69173",
+      "libelle_commune": "Sarcey",
+      "actual_abstention": 18.12,
+      "predicted_abstention": 14.17,
+      "abs_error": 3.95
+    },
+    {
+      "id_commune": "69279",
+      "libelle_commune": "Jonage",
+      "actual_abstention": 18.35,
+      "predicted_abstention": 19.06,
+      "abs_error": 0.71
+    },
+    {
+      "id_commune": "69277",
+      "libelle_commune": "Genas",
+      "actual_abstention": 18.68,
+      "predicted_abstention": 17.51,
+      "abs_error": 1.17
+    },
+    {
+      "id_commune": "69072",
+      "libelle_commune": "Dardilly",
+      "actual_abstention": 18.73,
+      "predicted_abstention": 17.06,
+      "abs_error": 1.67
+    },
+    {
+      "id_commune": "69007",
+      "libelle_commune": "Ampuis",
+      "actual_abstention": 18.94,
+      "predicted_abstention": 18.07,
+      "abs_error": 0.87
+    },
+    {
+      "id_commune": "69220",
+      "libelle_commune": "Saint-Laurent-de-Chamousset",
+      "actual_abstention": 19.2,
+      "predicted_abstention": 17.43,
+      "abs_error": 1.77
+    },
+    {
+      "id_commune": "69263",
+      "libelle_commune": "Villechenève",
+      "actual_abstention": 19.33,
+      "predicted_abstention": 17.4,
+      "abs_error": 1.93
+    },
+    {
+      "id_commune": "69081",
+      "libelle_commune": "Ecully",
+      "actual_abstention": 19.53,
+      "predicted_abstention": 17.91,
+      "abs_error": 1.62
+    },
+    {
+      "id_commune": "69267",
+      "libelle_commune": "Villié-Morgon",
+      "actual_abstention": 19.65,
+      "predicted_abstention": 17.18,
+      "abs_error": 2.47
+    },
+    {
+      "id_commune": "69110",
+      "libelle_commune": "Larajasse",
+      "actual_abstention": 19.69,
+      "predicted_abstention": 16.36,
+      "abs_error": 3.33
+    },
+    {
+      "id_commune": "69244",
+      "libelle_commune": "Tassin-la-Demi-Lune",
+      "actual_abstention": 19.74,
+      "predicted_abstention": 15.5,
+      "abs_error": 4.24
+    },
+    {
+      "id_commune": "69196",
+      "libelle_commune": "Saint-Didier-sur-Beaujeu",
+      "actual_abstention": 19.96,
+      "predicted_abstention": 18.31,
+      "abs_error": 1.65
+    },
+    {
+      "id_commune": "69090",
+      "libelle_commune": "Frontenas",
+      "actual_abstention": 20.11,
+      "predicted_abstention": 17.34,
+      "abs_error": 2.77
+    },
+    {
+      "id_commune": "69206",
+      "libelle_commune": "Saint-Georges-de-Reneins",
+      "actual_abstention": 21.39,
+      "predicted_abstention": 19.3,
+      "abs_error": 2.09
+    },
+    {
+      "id_commune": "69171",
+      "libelle_commune": "Sain-Bel",
+      "actual_abstention": 21.41,
+      "predicted_abstention": 21.65,
+      "abs_error": 0.24
+    },
+    {
+      "id_commune": "69124",
+      "libelle_commune": "Marchampt",
+      "actual_abstention": 21.85,
+      "predicted_abstention": 20.36,
+      "abs_error": 1.49
+    },
+    {
+      "id_commune": "69200",
+      "libelle_commune": "Saint-Forgeux",
+      "actual_abstention": 22.03,
+      "predicted_abstention": 16.2,
+      "abs_error": 5.83
+    },
+    {
+      "id_commune": "69034",
+      "libelle_commune": "Caluire-et-Cuire",
+      "actual_abstention": 22.17,
+      "predicted_abstention": 19.22,
+      "abs_error": 2.95
+    },
+    {
+      "id_commune": "69010",
+      "libelle_commune": "L'Arbresle",
+      "actual_abstention": 22.47,
+      "predicted_abstention": 24.63,
+      "abs_error": 2.16
+    },
+    {
+      "id_commune": "69242",
+      "libelle_commune": "Taponas",
+      "actual_abstention": 22.71,
+      "predicted_abstention": 18.56,
+      "abs_error": 4.15
+    },
+    {
+      "id_commune": "69018",
+      "libelle_commune": "Beaujeu",
+      "actual_abstention": 23.11,
+      "predicted_abstention": 24.79,
+      "abs_error": 1.68
+    },
+    {
+      "id_commune": "69292",
+      "libelle_commune": "Sathonay-Camp",
+      "actual_abstention": 23.67,
+      "predicted_abstention": 21.42,
+      "abs_error": 2.25
+    },
+    {
+      "id_commune": "69066",
+      "libelle_commune": "Cours",
+      "actual_abstention": 23.94,
+      "predicted_abstention": 26.3,
+      "abs_error": 2.36
+    },
+    {
+      "id_commune": "69019",
+      "libelle_commune": "Belleville-en-Beaujolais",
+      "actual_abstention": 26.06,
+      "predicted_abstention": 24.86,
+      "abs_error": 1.2
+    },
+    {
+      "id_commune": "69029",
+      "libelle_commune": "Bron",
+      "actual_abstention": 26.48,
+      "predicted_abstention": 25.58,
+      "abs_error": 0.9
+    },
+    {
+      "id_commune": "69092",
+      "libelle_commune": "Gleizé",
+      "actual_abstention": 27.49,
+      "predicted_abstention": 23.28,
+      "abs_error": 4.21
+    },
+    {
+      "id_commune": "69290",
+      "libelle_commune": "Saint-Priest",
+      "actual_abstention": 29.89,
+      "predicted_abstention": 28.89,
+      "abs_error": 1.0
+    }
+  ]
+}

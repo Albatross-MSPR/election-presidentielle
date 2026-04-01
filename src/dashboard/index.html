@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Electio Analytics — Métropole de Lyon</title>
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --blue:   #1a3a5c;
+      --accent: #e63329;
+      --light:  #f4f6fa;
+      --border: #dde2ea;
+    }
+    body { background: var(--light); font-family: 'Segoe UI', system-ui, sans-serif; color: #1e2636; }
+    header {
+      background: var(--blue);
+      color: #fff;
+      padding: 1.1rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    header h1 { font-size: 1.4rem; margin: 0; font-weight: 700; letter-spacing: .02em; }
+    header span { font-size: .85rem; opacity: .7; }
+    .nav-tabs { border-bottom: 2px solid var(--border); background: #fff; padding: 0 1.5rem; }
+    .nav-tabs .nav-link {
+      color: #555; font-weight: 500; font-size: .875rem;
+      border: none; border-bottom: 3px solid transparent;
+      padding: .65rem 1rem; border-radius: 0;
+    }
+    .nav-tabs .nav-link.active { color: var(--blue); border-bottom-color: var(--accent); background: transparent; }
+    .nav-tabs .nav-link:hover { color: var(--blue); }
+    .tab-content { padding: 1.5rem; }
+    .card { border: 1px solid var(--border); border-radius: 10px; background: #fff; }
+    .kpi-card {
+      background: #fff; border: 1px solid var(--border); border-radius: 10px;
+      padding: 1.2rem 1.5rem; text-align: center;
+    }
+    .kpi-card .kpi-val { font-size: 2rem; font-weight: 700; color: var(--blue); }
+    .kpi-card .kpi-label { font-size: .78rem; color: #777; margin-top: .2rem; }
+    .chart-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1rem .5rem; }
+    .chart-title { font-size: .9rem; font-weight: 600; color: var(--blue); margin-bottom: .5rem; padding-left: .3rem; }
+    .section-header { font-size: 1rem; font-weight: 700; color: var(--blue); margin: 1rem 0 .75rem; }
+    select.form-select { max-width: 280px; font-size: .85rem; }
+    .risk-badge { display: inline-block; background: #fee2e2; color: #b91c1c; border-radius: 6px; padding: 2px 8px; font-size: .75rem; font-weight: 600; }
+    .ok-badge   { display: inline-block; background: #dcfce7; color: #15803d; border-radius: 6px; padding: 2px 8px; font-size: .75rem; font-weight: 600; }
+    #loading { position: fixed; inset: 0; background: rgba(255,255,255,.92); display: flex; align-items: center; justify-content: center; z-index: 9999; flex-direction: column; gap: 1rem; }
+    #loading .spinner-border { width: 3rem; height: 3rem; color: var(--blue); }
+    table.dash-table { font-size: .82rem; }
+    table.dash-table thead th { background: var(--blue); color: #fff; font-weight: 600; }
+    table.dash-table tbody tr:nth-child(even) { background: #f8fafd; }
+    .model-metric { border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
+    .model-metric .val { font-size: 1.6rem; font-weight: 700; color: var(--blue); }
+    .model-metric .lbl { font-size: .75rem; color: #888; }
+  </style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="spinner-border" role="status"></div>
+  <div style="color:#1a3a5c;font-weight:600">Chargement des données…</div>
+</div>
+
+<header>
+  <div>
+    <h1>Electio Analytics &mdash; Rhône (69)</h1>
+    <span id="dashboard-subtitle">Présidentielles 2012 · 2017 · 2022 &nbsp;|&nbsp; chargement… &nbsp;|&nbsp; POC MSPR</span>
+  </div>
+</header>
+
+<!-- NAV TABS -->
+<ul class="nav nav-tabs" id="mainTabs">
+  <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-overview">Vue d'ensemble</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-participation">Participation</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-resultats">Résultats électoraux</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-vuln">Vulnérabilité</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-projections">Projections 2025</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-securite">Sécurité</button></li>
+  <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-ml">Modèle ML</button></li>
+</ul>
+
+<div class="tab-content" id="mainTabContent">
+
+  <!-- ════════════════════════ TAB 1: OVERVIEW ════════════════════════ -->
+  <div class="tab-pane fade show active" id="tab-overview">
+    <div class="row g-3 mb-3" id="kpi-row"></div>
+    <div class="row g-3">
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="chart-title">Abstention moyenne par scrutin</div>
+          <div id="chart-avg-abs" style="height:300px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div id="nuance-pie-title" class="chart-title mb-0">Répartition des voix par nuance — 2022 T2</div>
+            <select id="nuance-pie-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
+          </div>
+          <div id="chart-nuance-pie" style="height:300px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="chart-title">Top 20 communes — Score de vulnérabilité</div>
+          <div id="chart-vuln-overview" style="height:320px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div id="abs-overview-title" class="chart-title mb-0">Top 20 communes — Abstention 2022 T2</div>
+            <select id="abs-overview-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
+          </div>
+          <div id="chart-abs-overview" style="height:320px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ TAB 2: PARTICIPATION ════════════════════════ -->
+  <div class="tab-pane fade" id="tab-participation">
+    <div class="row g-3">
+      <div class="col-12">
+        <div class="chart-card">
+          <div class="chart-title">Abstention moyenne (%) par scrutin — Métropole de Lyon</div>
+          <div id="chart-abs-by-election" style="height:300px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="d-flex align-items-center gap-2 mb-2">
+          <div class="section-header mb-0">Tendance d'abstention par commune</div>
+          <select id="commune-select-part" class="form-select form-select-sm"></select>
+        </div>
+        <div class="chart-card">
+          <div id="chart-commune-trend" style="height:320px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div id="abs-ranked-title" class="chart-title mb-0">Classement abstention — 2022 T2 (toutes communes)</div>
+            <select id="abs-ranked-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
+          </div>
+          <div id="chart-abs-ranked" style="height:600px; overflow:hidden"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ TAB 3: RESULTATS ════════════════════════ -->
+  <div class="tab-pane fade" id="tab-resultats">
+    <div class="row g-3">
+      <div class="col-12">
+        <div class="d-flex align-items-center gap-3 mb-1">
+          <div class="section-header mb-0">Scrutin sélectionné :</div>
+          <select id="election-select" class="form-select form-select-sm"></select>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">Voix par nuance politique</div>
+          <div id="chart-nuance-bar" style="height:350px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div id="dom-nuance-title" class="chart-title mb-0">Nuance dominante par commune (carte par rang) — 2022 T2</div>
+            <select id="dom-nuance-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
+          </div>
+          <div id="chart-dom-nuance" style="height:380px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="chart-title">Évolution des finalistes du second tour</div>
+          <div id="chart-nuance-evolution" style="height:380px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ TAB 4: VULNERABILITE ════════════════════════ -->
+  <div class="tab-pane fade" id="tab-vuln">
+    <div class="row g-3">
+      <div class="col-lg-7">
+        <div class="chart-card">
+          <div class="chart-title">Score de vulnérabilité composite — Top 30 communes (PCA)</div>
+          <div id="chart-vuln-full" style="height:560px"></div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div class="chart-title mb-0">Profil commune — Vulnérabilité vs Abstention</div>
+            <select id="vuln-election-select" class="form-select form-select-sm ms-auto" style="max-width:160px"></select>
+          </div>
+          <div id="chart-vuln-scatter" style="height:360px"></div>
+        </div>
+        <div class="chart-card mt-3">
+          <div class="chart-title">Distribution des scores de vulnérabilité</div>
+          <div id="chart-vuln-hist" style="height:180px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="chart-card">
+          <div class="chart-title">Nuance prédite vs vulnérabilité — Profil complet</div>
+          <div id="chart-nuance-vuln" style="height:300px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ TAB 5: PROJECTIONS ════════════════════════ -->
+  <div class="tab-pane fade" id="tab-projections">
+    <div class="row g-3">
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="chart-title">Projection consensus 2023–2025 — Top 20 communes à risque</div>
+          <div id="chart-proj-top20" style="height:400px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="chart-title">Comparaison méthodes de projection (linéaire vs ML vs consensus)</div>
+          <select id="commune-select-proj" class="form-select form-select-sm mb-2"></select>
+          <div id="chart-proj-compare" style="height:340px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="chart-card">
+          <div class="chart-title">Distribution — Abstention 2022 observée vs projection consensus 2025</div>
+          <div id="chart-proj-dist" style="height:260px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="section-header">Communes signalées à risque (projection consensus 2025 &gt;= 40%)</div>
+        <div class="card p-2"><div id="risk-table"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ TAB 6: SECURITE ════════════════════════ -->
+  <div class="tab-pane fade" id="tab-securite">
+    <div class="row g-3">
+      <div class="col-12">
+        <div class="chart-card">
+          <div id="sec-trend-title" class="chart-title">Évolution du taux communal moyen diffusé (‰) par indicateur</div>
+          <div id="chart-sec-trend" style="height:380px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div class="chart-title mb-0">Taux moyen par indicateur</div>
+            <select id="sec-year-select" class="form-select form-select-sm ms-auto"></select>
+          </div>
+          <div id="chart-sec-bar" style="height:360px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div class="chart-title">Top 20 communes — Taux de cambriolages (dernière année)</div>
+          <div id="chart-sec-commune" style="height:360px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════ TAB 7: ML ════════════════════════ -->
+  <div class="tab-pane fade" id="tab-ml">
+    <div class="row g-3 mb-3" id="ml-kpi-row"></div>
+    <div class="row g-3">
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div id="ml-compare-title" class="chart-title">Performance — Classifieur de nuance (notebook courant)</div>
+          <div id="chart-ml-compare" style="height:300px"></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="chart-card">
+          <div id="abs-pred-title" class="chart-title">Abstention observée vs prédite — notebook courant</div>
+          <div id="chart-abs-pred" style="height:300px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="chart-card">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <div class="chart-title mb-0">Importance des variables</div>
+            <select id="feature-importance-select" class="form-select form-select-sm ms-auto">
+              <option value="abstention">Modèle d'abstention</option>
+              <option value="nuance">Classifieur de nuance</option>
+            </select>
+          </div>
+          <div id="chart-feature-importance" style="height:420px"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="chart-card">
+          <div class="chart-title">Nuance réelle vs nuance prédite — 2022 T2</div>
+          <div id="chart-nuance-pred" style="height:320px"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-3 p-3" style="background:#fffbeb;border:1px solid #fde68a;border-radius:8px;font-size:.82rem;">
+      <strong>Note méthodologique :</strong> Les features sécuritaires et socio-économiques utilisées dans le modèle proviennent des années les plus récentes disponibles (2024 sécurité, 2021 FILOSOFI), appliquées rétrospectivement aux élections 2012–2022. Cette limite est documentée comme contrainte connue du POC.
+    </div>
+  </div>
+
+</div><!-- /tab-content -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// ═══════════════════════════════════════════════════════
+//  DATA LOADER
+// ═══════════════════════════════════════════════════════
+const DATA = {};
+const FILES = [
+  "dashboard_meta",
+  "dim_commune","dim_election","dim_nuance","dim_indicateur_securite",
+  "avg_abstention_per_election","participation_detail","abstention_2022_t2_ranked",
+  "nuance_share_per_election","dominant_nuance_per_commune","results_2022_t2_per_commune",
+  "commune_profiles","vulnerability_scores","abstention_projections",
+  "securite_taux_par_annee","securite_commune_latest","model_comparison","abstention_evaluation","feature_importance"
+];
+
+const BASE = "data/";
+Promise.all(FILES.map(f =>
+  fetch(BASE + f + ".json").then(r => r.json()).then(d => { DATA[f] = d; })
+)).then(() => {
+  document.getElementById("loading").style.display = "none";
+  buildDashboard();
+}).catch(e => {
+  document.getElementById("loading").innerHTML =
+    `<div class="text-danger fw-bold">Erreur de chargement : ${e.message}</div>`;
+});
+
+// ═══════════════════════════════════════════════════════
+//  COLOUR PALETTE
+// ═══════════════════════════════════════════════════════
+const PALETTE = [
+  "#1a3a5c","#e63329","#2a7ab5","#f97316","#16a34a",
+  "#7c3aed","#0891b2","#be185d","#ca8a04","#475569",
+  "#34d399","#fb923c","#818cf8","#f472b6","#a3e635",
+];
+
+const NUANCE_COLORS = {
+  "Rassemblement National":    "#003189",
+  "Front National":            "#003189",
+  "La France insoumise":       "#cc0000",
+  "Extrême gauche":            "#8b0000",
+  "En Marche ! - Renaissance": "#ffaa00",
+  "La République En Marche":   "#ffaa00",
+  "Parti socialiste":          "#ff80ab",
+  "Les Républicains":          "#0066cc",
+  "Europe Écologie":           "#2d9e2d",
+  "Union des Droites":         "#6699cc",
+  "Divers droite":             "#99aacc",
+  "Divers gauche":             "#ff9999",
+};
+function nc(label) {
+  for (const [k,v] of Object.entries(NUANCE_COLORS)) {
+    if (label && label.includes(k.split(" ")[0])) return v;
+  }
+  return PALETTE[Object.keys(NUANCE_COLORS).length % PALETTE.length];
+}
+
+const LAYOUT_BASE = {
+  font: { family: "'Segoe UI', system-ui, sans-serif", size: 11 },
+  margin: { t: 20, r: 10, b: 40, l: 50 },
+  paper_bgcolor: "#fff", plot_bgcolor: "#fff",
+  xaxis: { gridcolor: "#eef0f4" },
+  yaxis: { gridcolor: "#eef0f4" },
+};
+function layout(extra={}) { return Object.assign({}, LAYOUT_BASE, extra); }
+
+const CFG = { responsive: true, displayModeBar: false };
+
+// ═══════════════════════════════════════════════════════
+//  HELPERS
+// ═══════════════════════════════════════════════════════
+function groupBy(arr, key) {
+  return arr.reduce((acc, r) => {
+    (acc[r[key]] = acc[r[key]] || []).push(r);
+    return acc;
+  }, {});
+}
+function uniq(arr) { return [...new Set(arr)]; }
+function dedupeBy(arr, keyFn) {
+  const map = new Map();
+  arr.forEach(item => map.set(String(keyFn(item)), item));
+  return [...map.values()];
+}
+function sortedCommunes() {
+  return dedupeBy(DATA.dim_commune, r=>r.id_commune)
+    .sort((a,b)=>a.libelle_commune.localeCompare(b.libelle_commune,"fr"));
+}
+function elecLabel(e) {
+  return e.annee_election + " T" + e.tour;
+}
+function elecLabelFromId(id) {
+  const match = String(id || "").match(/^(\d{4})_T([12])$/);
+  return match ? `${match[1]} T${match[2]}` : String(id || "—");
+}
+function prettyFeatureName(name) {
+  if (!name) return "—";
+  if (name.startsWith("fil_")) return name.replace(/^fil_/, "").replaceAll("_", " ");
+  return name;
+}
+function hydrateHeader() {
+  const meta = DATA.dashboard_meta || {};
+  const comparable = meta.election_shared_communes ?? DATA.dim_commune.length;
+  const subtitle = document.getElementById("dashboard-subtitle");
+  subtitle.innerHTML =
+    `Présidentielles 2012 · 2017 · 2022 &nbsp;|&nbsp; ${comparable} communes comparables &nbsp;|&nbsp; POC MSPR`;
+}
+
+// ═══════════════════════════════════════════════════════
+//  BUILD DASHBOARD
+// ═══════════════════════════════════════════════════════
+function buildDashboard() {
+  hydrateHeader();
+  buildKPIs();
+  buildOverviewCharts();
+  buildParticipationCharts();
+  buildResultatsCharts();
+  buildVulnCharts();
+  buildProjectionCharts();
+  buildSecuriteCharts();
+  buildMLCharts();
+  // Redraw on tab change (Plotly needs visible container)
+  document.querySelectorAll('[data-bs-toggle="tab"]').forEach(btn => {
+    btn.addEventListener("shown.bs.tab", () => {
+      document.querySelectorAll(".js-plotly-plot").forEach(el => Plotly.Plots.resize(el));
+    });
+  });
+}
+
+// ─────────────────────────────────────────────
+//  KPIs
+// ─────────────────────────────────────────────
+function buildKPIs() {
+  const meta = DATA.dashboard_meta || {};
+  const profiles = DATA.commune_profiles;
+  const proj = DATA.abstention_projections;
+  const comparableCount = meta.election_shared_communes ?? DATA.dim_commune.length;
+  const crossDomainCount = meta.cross_domain_communes ?? profiles.length;
+  const avgAbs = (DATA.abstention_2022_t2_ranked.reduce((s,r)=>s+r.pct_abs_ins,0)/DATA.abstention_2022_t2_ranked.length).toFixed(1);
+
+  const maxVulnCommune = profiles.reduce((best,r) => r.vulnerability_score > (best.vulnerability_score||0) ? r : best, {});
+  const highAbsCount = DATA.abstention_2022_t2_ranked.filter(r=>r.pct_abs_ins>30).length;
+  const kpis = [
+    { val: comparableCount, label: "Communes comparables (6 scrutins)" },
+    { val: crossDomainCount, label: "Communes croisées (multi-source)" },
+    { val: avgAbs + "%", label: "Abstention moyenne 2022 T2" },
+    { val: highAbsCount, label: "Communes > 30% abstention 2022" },
+    { val: maxVulnCommune.libelle_commune || "—", label: "Commune la plus vulnérable" },
+    { val: "18", label: "Indicateurs sécuritaires" },
+  ];
+  document.getElementById("kpi-row").innerHTML = kpis.map(k =>
+    `<div class="col-6 col-md-4 col-lg-2">
+       <div class="kpi-card">
+         <div class="kpi-val">${k.val}</div>
+         <div class="kpi-label">${k.label}</div>
+       </div>
+     </div>`
+  ).join("");
+}
+
+// ─────────────────────────────────────────────
+//  OVERVIEW CHARTS
+// ─────────────────────────────────────────────
+function buildOverviewCharts() {
+  // Average abstention bar
+  const avgData = DATA.avg_abstention_per_election.sort((a,b)=>a.label.localeCompare(b.label));
+  Plotly.newPlot("chart-avg-abs", [{
+    type: "bar", x: avgData.map(r=>r.label), y: avgData.map(r=>r.pct_abs_ins),
+    marker: { color: avgData.map((r,i) => i%2===0 ? "#2a7ab5" : "#1a3a5c") },
+    text: avgData.map(r=>r.pct_abs_ins.toFixed(1)+"%"), textposition: "outside",
+    hovertemplate: "%{x}<br>Abstention : %{y:.1f}%<extra></extra>"
+  }], layout({ yaxis: { title: "%", gridcolor:"#eef0f4" }, margin:{t:20,r:10,b:40,l:45} }), CFG);
+
+  // Nuance pie by election
+  const nuancePieSel = document.getElementById("nuance-pie-election-select");
+  const nuancePieTitle = document.getElementById("nuance-pie-title");
+  const pieElections = DATA.dim_election
+    .slice()
+    .sort((a,b)=> (a.annee_election - b.annee_election) || (a.tour - b.tour));
+  const pieElectionById = new Map(pieElections.map(e=>[e.id_election, e]));
+  if (nuancePieSel && !nuancePieSel.options.length) {
+    nuancePieSel.innerHTML = pieElections
+      .map(e => `<option value="${e.id_election}">${elecLabel(e)}</option>`)
+      .join("");
+    nuancePieSel.value = pieElectionById.has("2022_T2") ? "2022_T2" : pieElections[pieElections.length - 1]?.id_election;
+  }
+  function drawNuancePie(electionId) {
+    const selected = pieElectionById.get(electionId) || { id_election: electionId };
+    const selectedLabel = pieElectionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
+    if (nuancePieTitle) nuancePieTitle.textContent = `Répartition des voix par nuance — ${selectedLabel}`;
+    const rows = DATA.nuance_share_per_election
+      .filter(r=>r.id_election===electionId)
+      .sort((a,b)=>b.voix-a.voix);
+    Plotly.newPlot("chart-nuance-pie", [{
+      type: "pie",
+      labels: rows.map(r=>r.libelle_nuance),
+      values: rows.map(r=>r.voix),
+      customdata: rows.map(r=>r.pct),
+      marker: { colors: rows.map(r=>nc(r.libelle_nuance)) },
+      textinfo: "label+percent",
+      hovertemplate: "%{label}<br>%{value:,} voix<br>Part : %{customdata:.2f}%<extra></extra>",
+      textposition: "auto"
+    }], { ...layout(), showlegend: false, margin:{t:20,r:10,b:20,l:10} }, CFG);
+  }
+  drawNuancePie(nuancePieSel.value);
+  nuancePieSel.addEventListener("change", ()=>drawNuancePie(nuancePieSel.value));
+
+  // Top 20 vulnerability
+  const top20v = DATA.vulnerability_scores.slice(0,20).reverse();
+  Plotly.newPlot("chart-vuln-overview", [{
+    type: "bar", orientation: "h",
+    y: top20v.map(r=>r.libelle_commune), x: top20v.map(r=>r.vulnerability_score),
+    marker: { color: "#e63329", opacity: 0.85 },
+    hovertemplate: "%{y}<br>Score : %{x:.2f}<extra></extra>"
+  }], layout({ margin:{t:10,r:20,b:30,l:120}, yaxis:{gridcolor:"#eef0f4"}, xaxis:{title:"Score PCA"} }), CFG);
+
+  // Top 20 abstention by election
+  const absOverviewSel = document.getElementById("abs-overview-election-select");
+  const absOverviewTitle = document.getElementById("abs-overview-title");
+  const absOverviewElections = DATA.dim_election
+    .slice()
+    .sort((a,b)=> (a.annee_election - b.annee_election) || (a.tour - b.tour));
+  const absOverviewElectionById = new Map(absOverviewElections.map(e=>[e.id_election, e]));
+  if (absOverviewSel && !absOverviewSel.options.length) {
+    absOverviewSel.innerHTML = absOverviewElections
+      .map(e => `<option value="${e.id_election}">${elecLabel(e)}</option>`)
+      .join("");
+    absOverviewSel.value = absOverviewElectionById.has("2022_T2") ? "2022_T2" : absOverviewElections[absOverviewElections.length - 1]?.id_election;
+  }
+  function drawAbsOverview(electionId) {
+    const selected = absOverviewElectionById.get(electionId) || { id_election: electionId };
+    const selectedLabel = absOverviewElectionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
+    if (absOverviewTitle) absOverviewTitle.textContent = `Top 20 communes — Abstention ${selectedLabel}`;
+    const top20a = DATA.participation_detail
+      .filter(r=>r.id_election===electionId)
+      .slice()
+      .sort((a,b)=>b.pct_abs_ins-a.pct_abs_ins)
+      .slice(0,20)
+      .reverse();
+    Plotly.newPlot("chart-abs-overview", [{
+      type: "bar", orientation: "h",
+      y: top20a.map(r=>r.libelle_commune), x: top20a.map(r=>r.pct_abs_ins),
+      customdata: top20a.map(r=>r.inscrits),
+      marker: { color: "#f97316", opacity: 0.85 },
+      hovertemplate: "%{y}<br>Abstention : %{x:.1f}%<br>Inscrits : %{customdata}<extra></extra>"
+    }], layout({ margin:{t:10,r:20,b:30,l:130}, yaxis:{gridcolor:"#eef0f4"}, xaxis:{title:"%"} }), CFG);
+  }
+  drawAbsOverview(absOverviewSel.value);
+  absOverviewSel.addEventListener("change", ()=>drawAbsOverview(absOverviewSel.value));
+}
+
+// ─────────────────────────────────────────────
+//  PARTICIPATION CHARTS
+// ─────────────────────────────────────────────
+function buildParticipationCharts() {
+  // Bar by election
+  const avgData = DATA.avg_abstention_per_election.sort((a,b)=>a.label.localeCompare(b.label));
+  Plotly.newPlot("chart-abs-by-election", [{
+    type: "bar", x: avgData.map(r=>r.label), y: avgData.map(r=>r.pct_abs_ins),
+    marker: { color: avgData.map((r,i)=>r.tour===1?"#2a7ab5":"#1a3a5c") },
+    text: avgData.map(r=>r.pct_abs_ins.toFixed(1)+"%"), textposition:"outside",
+    hovertemplate: "%{x}<br>%{y:.1f}%<extra></extra>"
+  }], layout({ yaxis:{title:"%",gridcolor:"#eef0f4"} }), CFG);
+
+  // Populate commune select
+  const sel = document.getElementById("commune-select-part");
+  const communes = sortedCommunes();
+  communes.forEach(c => {
+    const o = document.createElement("option");
+    o.value = c.id_commune; o.textContent = c.libelle_commune; sel.appendChild(o);
+  });
+  function drawTrend(id) {
+    const rows = DATA.participation_detail.filter(r=>r.id_commune==id)
+      .sort((a,b)=>a.id_election.localeCompare(b.id_election));
+    const t1 = rows.filter(r=>r.tour===1);
+    const t2 = rows.filter(r=>r.tour===2);
+    Plotly.newPlot("chart-commune-trend", [
+      { name:"T1", x:t1.map(r=>r.annee_election), y:t1.map(r=>r.pct_abs_ins), mode:"lines+markers", line:{color:"#2a7ab5"}, marker:{size:8} },
+      { name:"T2", x:t2.map(r=>r.annee_election), y:t2.map(r=>r.pct_abs_ins), mode:"lines+markers", line:{color:"#e63329"}, marker:{size:8} },
+    ], layout({ yaxis:{title:"Abstention (%)"}, xaxis:{tickvals:[2012,2017,2022]}, legend:{orientation:"h"} }), CFG);
+  }
+  drawTrend(communes[0].id_commune);
+  sel.addEventListener("change", () => drawTrend(sel.value));
+
+  // Full ranked bar by election (all communes)
+  const absRankedSel = document.getElementById("abs-ranked-election-select");
+  const absRankedTitle = document.getElementById("abs-ranked-title");
+  const absRankedElections = DATA.dim_election
+    .slice()
+    .sort((a,b)=> (a.annee_election - b.annee_election) || (a.tour - b.tour));
+  const absRankedElectionById = new Map(absRankedElections.map(e=>[e.id_election, e]));
+  if (absRankedSel && !absRankedSel.options.length) {
+    absRankedSel.innerHTML = absRankedElections
+      .map(e => `<option value="${e.id_election}">${elecLabel(e)}</option>`)
+      .join("");
+    absRankedSel.value = absRankedElectionById.has("2022_T2") ? "2022_T2" : absRankedElections[absRankedElections.length - 1]?.id_election;
+  }
+  function drawAbsRanked(electionId) {
+    const selected = absRankedElectionById.get(electionId) || { id_election: electionId };
+    const selectedLabel = absRankedElectionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
+    if (absRankedTitle) absRankedTitle.textContent = `Classement abstention — ${selectedLabel} (toutes communes)`;
+    const ranked = DATA.participation_detail
+      .filter(r=>r.id_election===electionId)
+      .slice()
+      .sort((a,b)=>b.pct_abs_ins-a.pct_abs_ins)
+      .reverse();
+    Plotly.newPlot("chart-abs-ranked", [{
+      type: "bar", orientation: "h",
+      y: ranked.map(r=>r.libelle_commune), x: ranked.map(r=>r.pct_abs_ins),
+      customdata: ranked.map(r=>r.inscrits),
+      marker: { color: ranked.map(r=>r.pct_abs_ins>35?"#e63329":r.pct_abs_ins>25?"#f97316":"#2a7ab5") },
+      hovertemplate: "%{y}<br>Abstention : %{x:.1f}%<br>Inscrits : %{customdata}<extra></extra>"
+    }], layout({ margin:{t:10,r:20,b:30,l:140}, height:600, yaxis:{automargin:true,tickfont:{size:9}}, xaxis:{title:"%"} }), CFG);
+  }
+  drawAbsRanked(absRankedSel.value);
+  absRankedSel.addEventListener("change", ()=>drawAbsRanked(absRankedSel.value));
+}
+
+// ─────────────────────────────────────────────
+//  RESULTATS CHARTS
+// ─────────────────────────────────────────────
+function buildResultatsCharts() {
+  const elections = DATA.dim_election.slice().sort((a,b)=>a.id_election.localeCompare(b.id_election));
+  const sel = document.getElementById("election-select");
+  const domSel = document.getElementById("dom-nuance-election-select");
+  const domTitle = document.getElementById("dom-nuance-title");
+  elections.forEach(e => {
+    const o = document.createElement("option");
+    o.value = e.id_election; o.textContent = elecLabel(e); sel.appendChild(o);
+  });
+  if (domSel && !domSel.options.length) {
+    domSel.innerHTML = elections
+      .map(e => `<option value="${e.id_election}">${elecLabel(e)}</option>`)
+      .join("");
+  }
+  const electionById = new Map(elections.map(e=>[e.id_election, e]));
+  const defaultElection = electionById.has("2022_T2") ? "2022_T2" : elections[elections.length - 1]?.id_election;
+  sel.value = defaultElection;
+  if (domSel) domSel.value = defaultElection;
+
+  function drawNuanceBar(elec_id) {
+    const selected = electionById.get(elec_id) || { id_election: elec_id };
+    const selectedLabel = electionById.has(elec_id) ? elecLabel(selected) : elecLabelFromId(elec_id);
+    const rows = DATA.nuance_share_per_election.filter(r=>r.id_election===elec_id)
+      .filter(r=>r.pct>=0.5).sort((a,b)=>b.pct-a.pct);
+    Plotly.newPlot("chart-nuance-bar", [{
+      type:"bar", x: rows.map(r=>r.libelle_nuance), y: rows.map(r=>r.pct),
+      marker:{color: rows.map(r=>nc(r.libelle_nuance))},
+      text: rows.map(r=>r.pct.toFixed(1)+"%"), textposition:"outside",
+      hovertemplate: "%{x}<br>%{y:.1f}%<extra></extra>"
+    }], layout({ yaxis:{title:"%"}, xaxis:{tickangle:-30,automargin:true} }), CFG);
+
+    // Dominant nuance distribution (top communes)
+    const dom = DATA.dominant_nuance_per_commune.filter(r=>r.id_election===elec_id);
+    const byNuance = groupBy(dom, "libelle_nuance");
+    const nuanceCounts = Object.entries(byNuance).map(([n,r])=>({nuance:n,count:r.length}))
+      .sort((a,b)=>b.count-a.count);
+    if (domTitle) domTitle.textContent = `Nuance dominante par commune (carte par rang) — ${selectedLabel}`;
+    Plotly.newPlot("chart-dom-nuance", [{
+      type:"bar", x:nuanceCounts.map(r=>r.nuance), y:nuanceCounts.map(r=>r.count),
+      marker:{color:nuanceCounts.map(r=>nc(r.nuance))},
+      hovertemplate:"%{x}<br>%{y} communes<extra></extra>"
+    }], layout({ xaxis:{tickangle:-30,automargin:true}, yaxis:{title:"Nb communes"} }), CFG);
+  }
+  drawNuanceBar(defaultElection);
+  sel.addEventListener("change", ()=>{
+    if (domSel) domSel.value = sel.value;
+    drawNuanceBar(sel.value);
+  });
+  if (domSel) {
+    domSel.addEventListener("change", ()=>{
+      sel.value = domSel.value;
+      drawNuanceBar(domSel.value);
+    });
+  }
+
+  // Finalists evolution - second round only
+  const t2data = DATA.nuance_share_per_election.filter(r=>r.tour===2);
+  const finalistNuances = uniq(
+    t2data.map(r=>r.libelle_nuance).filter(Boolean)
+  );
+  const years = [2012,2017,2022];
+  const traces = finalistNuances.map((n,i) => ({
+    name: n, mode:"lines+markers",
+    x: years,
+    y: years.map(y => {
+      const row = t2data.find(r=>r.annee_election===y && r.libelle_nuance===n);
+      return row ? row.pct : null;
+    }),
+    line:{color: nc(n) || PALETTE[i]}, marker:{size:8},
+    connectgaps: false,
+    hovertemplate: n+"<br>%{y:.1f}%<extra></extra>"
+  }));
+  Plotly.newPlot("chart-nuance-evolution", traces,
+    layout({
+      yaxis:{title:"%"},
+      xaxis:{tickvals:years},
+      legend:{orientation:"h",y:-0.2},
+      hovermode:"x unified"
+    }), CFG);
+}
+
+// ─────────────────────────────────────────────
+//  VULNERABILITY CHARTS
+// ─────────────────────────────────────────────
+function buildVulnCharts() {
+  // Top 30
+  const top30 = DATA.vulnerability_scores.slice(0,30).reverse();
+  Plotly.newPlot("chart-vuln-full", [{
+    type:"bar", orientation:"h",
+    y: top30.map(r=>r.libelle_commune), x: top30.map(r=>r.vulnerability_score),
+    marker:{ colorscale:"Reds", color:top30.map(r=>r.vulnerability_score), showscale:true,
+             colorbar:{len:.6,thickness:12,title:{text:"Score",side:"right"}} },
+    hovertemplate:"%{y}<br>Score : %{x:.3f}<extra></extra>"
+  }], layout({ margin:{t:10,r:60,b:30,l:130}, yaxis:{automargin:true,tickfont:{size:9}} }), CFG);
+
+  // Scatter vuln vs abstention
+  const profiles = DATA.commune_profiles;
+  const vulnById = new Map(DATA.vulnerability_scores.map(r=>[String(r.id_commune), r]));
+  const elections = DATA.dim_election
+    .slice()
+    .sort((a,b)=> (a.annee_election - b.annee_election) || (a.tour - b.tour));
+  const electionById = new Map(elections.map(e=>[e.id_election, e]));
+  const vulnSel = document.getElementById("vuln-election-select");
+  if (vulnSel && !vulnSel.options.length) {
+    vulnSel.innerHTML = elections
+      .map(e => `<option value="${e.id_election}">${elecLabel(e)}</option>`)
+      .join("");
+    vulnSel.value = electionById.has("2022_T2") ? "2022_T2" : elections[elections.length - 1]?.id_election;
+  }
+  function drawVulnScatter(electionId) {
+    const selected = electionById.get(electionId) || { id_election: electionId };
+    const selectedLabel = electionById.has(electionId) ? elecLabel(selected) : elecLabelFromId(electionId);
+    const rows = DATA.participation_detail
+      .filter(r => r.id_election === electionId && vulnById.has(String(r.id_commune)))
+      .map(r => {
+        const vuln = vulnById.get(String(r.id_commune));
+        return {
+          ...r,
+          vulnerability_score: vuln.vulnerability_score,
+          vulnerability_rank: vuln.rank
+        };
+      })
+      .sort((a,b)=>a.vulnerability_score - b.vulnerability_score);
+    Plotly.newPlot("chart-vuln-scatter", [{
+      type:"scatter", mode:"markers",
+      x: rows.map(r=>r.vulnerability_score), y: rows.map(r=>r.pct_abs_ins),
+      text: rows.map(r=>r.libelle_commune),
+      customdata: rows.map(r=>[r.vulnerability_rank, r.inscrits]),
+      marker:{ color:"#e63329", opacity:.65, size:7 },
+      hovertemplate:
+        "%{text}<br>Score vulnérabilité : %{x:.2f}<br>Abstention : %{y:.1f}%<br>Rang vulnérabilité : %{customdata[0]}<br>Inscrits : %{customdata[1]}<extra></extra>"
+    }], layout({
+      xaxis:{title:"Score vulnérabilité"},
+      yaxis:{title:`Abstention ${selectedLabel} (%)`},
+      annotations: [{
+        xref:"paper", yref:"paper", x:0, y:1.11, showarrow:false,
+        text:`${selectedLabel} · ${rows.length} communes croisées`,
+        font:{size:11, color:"#6b7280"}
+      }]
+    }), CFG);
+  }
+  drawVulnScatter(vulnSel.value);
+  vulnSel.addEventListener("change", ()=>drawVulnScatter(vulnSel.value));
+
+  // Histogram
+  Plotly.newPlot("chart-vuln-hist", [{
+    type:"histogram", x: profiles.map(r=>r.vulnerability_score),
+    marker:{color:"#1a3a5c"}, nbinsx:25,
+    hovertemplate:"[%{x:.1f}]<br>%{y} communes<extra></extra>"
+  }], layout({ margin:{t:10,r:10,b:35,l:45}, yaxis:{title:"Communes"} }), CFG);
+
+  // Nuance vs vulnerability grouped bar
+  const byNuance = groupBy(profiles, "libelle_nuance");
+  const nuanceSummary = Object.entries(byNuance).map(([n,rows])=>({
+    nuance:n,
+    avgVuln:(rows.reduce((s,r)=>s+r.vulnerability_score,0)/rows.length).toFixed(2),
+    count:rows.length
+  })).sort((a,b)=>b.avgVuln-a.avgVuln);
+  Plotly.newPlot("chart-nuance-vuln", [{
+    type:"bar", x:nuanceSummary.map(r=>r.nuance), y:nuanceSummary.map(r=>parseFloat(r.avgVuln)),
+    marker:{color:nuanceSummary.map(r=>nc(r.nuance))},
+    text:nuanceSummary.map(r=>`n=${r.count}`), textposition:"outside",
+    hovertemplate:"%{x}<br>Score moyen : %{y:.2f}<extra></extra>"
+  }], layout({ xaxis:{tickangle:-30,automargin:true}, yaxis:{title:"Score moyen"} }), CFG);
+}
+
+// ─────────────────────────────────────────────
+//  PROJECTION CHARTS
+// ─────────────────────────────────────────────
+function buildProjectionCharts() {
+  const proj = DATA.abstention_projections;
+
+  // Top 20 by consensus 2025
+  const top20 = proj.slice().sort((a,b)=>b.consensus_proj_2025-a.consensus_proj_2025).slice(0,20).reverse();
+  Plotly.newPlot("chart-proj-top20", [
+    { name:"2022 Observé", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.abstention_2022_observed), marker:{color:"#94a3b8"} },
+    { name:"2023 consensus", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.consensus_proj_2023), marker:{color:"#2a7ab5"} },
+    { name:"2025 consensus", type:"bar", orientation:"h", y:top20.map(r=>r.libelle_commune), x:top20.map(r=>r.consensus_proj_2025), marker:{color:"#e63329"} },
+  ], layout({ barmode:"group", margin:{t:10,r:20,b:30,l:140}, xaxis:{title:"%"},
+    legend:{orientation:"h",y:-0.12}, yaxis:{automargin:true,tickfont:{size:9}} }), CFG);
+
+  // Commune selector for method comparison
+  const sel = document.getElementById("commune-select-proj");
+  sortedCommunes().forEach(c => {
+    const o = document.createElement("option"); o.value=c.id_commune; o.textContent=c.libelle_commune; sel.appendChild(o);
+  });
+  function drawProjCompare(id) {
+    const row = proj.find(r=>r.id_commune==id);
+    if (!row) return;
+    const years  = [2022, 2023, 2024, 2025];
+    Plotly.newPlot("chart-proj-compare", [
+      { name:"Observé 2022", mode:"markers", x:[2022], y:[row.abstention_2022_observed], marker:{color:"#1a3a5c",size:12}, hovertemplate:"%{y:.1f}%<extra></extra>" },
+      { name:"Linéaire", mode:"lines+markers", x:[2022,2023,2024,2025], y:[row.abstention_2022_observed,row.linear_proj_2023,row.linear_proj_2024,row.linear_proj_2025], line:{dash:"dot",color:"#2a7ab5"}, marker:{size:7} },
+      { name:"ML", mode:"lines+markers", x:[2022,2023,2024,2025], y:[row.abstention_2022_observed,row.ml_proj_2023,row.ml_proj_2024,row.ml_proj_2025], line:{dash:"dash",color:"#f97316"}, marker:{size:7} },
+      { name:"Consensus", mode:"lines+markers", x:[2022,2023,2024,2025], y:[row.abstention_2022_observed,row.consensus_proj_2023,row.consensus_proj_2024,row.consensus_proj_2025], line:{color:"#e63329",width:2.5}, marker:{size:8} },
+    ], layout({ yaxis:{title:"%"}, xaxis:{tickvals:years}, legend:{orientation:"h",y:-0.2} }), CFG);
+  }
+  drawProjCompare(sortedCommunes()[0].id_commune);
+  sel.addEventListener("change", ()=>drawProjCompare(sel.value));
+
+  // Distribution comparison
+  Plotly.newPlot("chart-proj-dist", [
+    { type:"histogram", x:proj.map(r=>r.abstention_2022_observed), name:"2022 Observé", opacity:.7, marker:{color:"#94a3b8"}, nbinsx:25 },
+    { type:"histogram", x:proj.map(r=>r.consensus_proj_2025), name:"2025 Consensus", opacity:.7, marker:{color:"#e63329"}, nbinsx:25 },
+  ], layout({ barmode:"overlay", yaxis:{title:"Communes"}, xaxis:{title:"%"}, legend:{orientation:"h"} }), CFG);
+
+  // Risk table
+  const risk = proj.filter(r=>r.risk_flag).sort((a,b)=>b.consensus_proj_2025-a.consensus_proj_2025);
+  const tbl = `<div class="table-responsive">
+    <table class="table table-sm dash-table">
+      <thead><tr>
+        <th>Commune</th><th>Abs. 2022</th><th>Proj. 2023</th><th>Proj. 2024</th><th>Proj. 2025</th><th>Tendance/an</th>
+      </tr></thead>
+      <tbody>${risk.map(r=>`<tr>
+        <td>${r.libelle_commune}</td>
+        <td>${r.abstention_2022_observed.toFixed(1)}%</td>
+        <td>${r.consensus_proj_2023.toFixed(1)}%</td>
+        <td>${r.consensus_proj_2024.toFixed(1)}%</td>
+        <td><strong>${r.consensus_proj_2025.toFixed(1)}%</strong></td>
+        <td>${r.slope_per_year>0?"▲":"▼"} ${Math.abs(r.slope_per_year).toFixed(2)}%/an</td>
+      </tr>`).join("")}</tbody>
+    </table></div>`;
+  document.getElementById("risk-table").innerHTML = tbl;
+}
+
+// ─────────────────────────────────────────────
+//  SECURITE CHARTS
+// ─────────────────────────────────────────────
+function buildSecuriteCharts() {
+  const meta = DATA.dashboard_meta || {};
+  const secTrendTitle = document.getElementById("sec-trend-title");
+  const territory = meta.territory_label || "Rhône (69)";
+  const crossDomain = meta.cross_domain_communes;
+  if (secTrendTitle) {
+    secTrendTitle.textContent = crossDomain
+      ? `Évolution du taux communal moyen diffusé (‰) par indicateur — ${territory} (${crossDomain} communes croisées)`
+      : `Évolution du taux communal moyen diffusé (‰) par indicateur — ${territory}`;
+  }
+  const sec = DATA.securite_taux_par_annee;
+  const indicators = uniq(sec.map(r=>r.indicateur));
+  const years = uniq(sec.map(r=>r.annee)).sort();
+
+  // Trend lines
+  const traces = indicators.map((ind,i) => ({
+    name: ind.length>35 ? ind.substring(0,32)+"…" : ind,
+    mode: "lines+markers",
+    x: years,
+    y: years.map(y => { const row = sec.find(r=>r.annee===y && r.indicateur===ind); return row?row.taux_pour_mille:null; }),
+    line:{color:PALETTE[i%PALETTE.length]}, marker:{size:5},
+    connectgaps:false,
+    hovertemplate: ind + "<br>%{x} : %{y:.2f}‰<extra></extra>"
+  }));
+  Plotly.newPlot("chart-sec-trend", traces,
+    layout({ yaxis:{title:"Taux (‰)"}, legend:{orientation:"v",x:1.02,y:1}, margin:{r:200} }), CFG);
+
+  // Year select
+  const yearSel = document.getElementById("sec-year-select");
+  years.slice().reverse().forEach(y => {
+    const o = document.createElement("option"); o.value=y; o.textContent=y; yearSel.appendChild(o);
+  });
+  const latestY = years[years.length-1];
+  yearSel.value = latestY;
+
+  function drawSecBar(yr) {
+    const rows = sec.filter(r=>r.annee===yr).sort((a,b)=>b.taux_pour_mille-a.taux_pour_mille);
+    Plotly.newPlot("chart-sec-bar", [{
+      type:"bar", x:rows.map(r=>r.indicateur), y:rows.map(r=>r.taux_pour_mille),
+      marker:{color:"#1a3a5c", opacity:.85},
+      hovertemplate:"%{x}<br>%{y:.2f}‰<extra></extra>"
+    }], layout({ xaxis:{tickangle:-35,automargin:true}, yaxis:{title:"Taux moyen (‰)"} }), CFG);
+  }
+  drawSecBar(latestY);
+  yearSel.addEventListener("change",()=>drawSecBar(parseInt(yearSel.value)));
+
+  // Top 20 communes cambriolages
+  const camb = DATA.securite_commune_latest.filter(r=>r.id_indicateur_securite==="SEC_001")
+    .sort((a,b)=>b.taux_pour_mille-a.taux_pour_mille).slice(0,20).reverse();
+  Plotly.newPlot("chart-sec-commune", [{
+    type:"bar", orientation:"h",
+    y:camb.map(r=>r.libelle_commune), x:camb.map(r=>r.taux_pour_mille),
+    marker:{color:"#7c3aed",opacity:.85},
+    hovertemplate:"%{y}<br>%{x:.2f}‰<extra></extra>"
+  }], layout({ margin:{t:10,r:20,b:30,l:130}, yaxis:{automargin:true,tickfont:{size:9}}, xaxis:{title:"Taux (‰)"} }), CFG);
+}
+
+// ─────────────────────────────────────────────
+//  ML CHARTS
+// ─────────────────────────────────────────────
+function buildMLCharts() {
+  const mc = DATA.model_comparison || {};
+  const fi = DATA.feature_importance || {};
+  const currentModel = mc.current_notebook || null;
+  const meta = mc.metadata || {};
+  const compareTitle = document.getElementById("ml-compare-title");
+
+  // KPIs
+  const metrics = currentModel ? [
+    { val: (currentModel.accuracy*100).toFixed(1)+"%", label:"Accuracy (jeu de test)" },
+    { val: (currentModel.macro_f1*100).toFixed(1)+"%", label:"Macro F1 (jeu de test)" },
+    { val: (currentModel.balanced_accuracy*100).toFixed(1)+"%", label:"Balanced Accuracy" },
+    { val: meta.communes_analyzed ?? "—", label:"Communes avec features + nuance" },
+  ] : [
+    { val: mc.with_2022_t1 ? (mc.with_2022_t1.accuracy*100).toFixed(1)+"%" : "—", label:"Précision (avec T1 2022)" },
+    { val: mc.with_2022_t1 ? (mc.with_2022_t1.f1*100).toFixed(1)+"%" : "—", label:"F1-Score (avec T1 2022)" },
+    { val: mc.with_2022_t1 ? (mc.with_2022_t1.balanced_accuracy*100).toFixed(1)+"%" : "—", label:"Balanced Accuracy" },
+    { val: mc.metadata ? mc.metadata.communes_analyzed : "—", label:"Échantillon RF comparaison" },
+  ];
+  document.getElementById("ml-kpi-row").innerHTML = metrics.map(k=>
+    `<div class="col-6 col-md-3">
+       <div class="model-metric">
+         <div class="val">${k.val}</div>
+         <div class="lbl">${k.label}</div>
+       </div>
+     </div>`
+  ).join("");
+
+  // Model comparison
+  if (currentModel) {
+    const electionLabel = meta.latest_election_label || elecLabelFromId(meta.latest_election);
+    if (compareTitle) {
+      compareTitle.textContent = electionLabel && electionLabel !== "—"
+        ? `Performance — Classifieur de nuance (${electionLabel}, notebook courant)`
+        : "Performance — Classifieur de nuance (notebook courant)";
+    }
+    const metricNames = ["Accuracy test","Balanced Accuracy","Macro F1","Accuracy CV 5 folds"];
+    const values = [
+      currentModel.accuracy,
+      currentModel.balanced_accuracy,
+      currentModel.macro_f1,
+      currentModel.cv_accuracy,
+    ];
+    const annotations = [];
+    const shapes = [];
+    if (meta.baseline_accuracy != null) {
+      shapes.push({
+        type:"line",
+        xref:"paper",
+        x0:0, x1:1,
+        y0: meta.baseline_accuracy * 100,
+        y1: meta.baseline_accuracy * 100,
+        line:{color:"#9ca3af", dash:"dot", width:1.5}
+      });
+      annotations.push({
+        xref:"paper", yref:"y", x:1.01, y:meta.baseline_accuracy * 100,
+        text:`Baseline ${(meta.baseline_accuracy * 100).toFixed(1)}%`,
+        showarrow:false, xanchor:"left",
+        font:{size:11, color:"#6b7280"}
+      });
+    }
+    annotations.push({
+      xref:"paper", yref:"paper", x:0, y:1.12, showarrow:false,
+      text:`Jeu de test n=${meta.test_support ?? "—"} · CV 5 folds = ${(currentModel.cv_accuracy * 100).toFixed(1)}% ± ${(currentModel.cv_accuracy_std * 100).toFixed(1)} pts`,
+      font:{size:11, color:"#6b7280"}
+    });
+    Plotly.newPlot("chart-ml-compare", [{
+      type:"bar",
+      x:metricNames,
+      y:values.map(v => +(v*100).toFixed(1)),
+      marker:{color:["#1a3a5c","#2a7ab5","#4b5563","#94a3b8"]},
+      text:values.map(v => (v*100).toFixed(1)+"%"),
+      textposition:"outside",
+      hovertemplate:"%{x}<br>%{y:.1f}%<extra></extra>"
+    }], layout({
+      yaxis:{title:"%", range:[60,100]},
+      xaxis:{tickangle:-20, automargin:true},
+      margin:{t:45,r:100,b:60,l:50},
+      annotations,
+      shapes
+    }), CFG);
+  } else if (mc.with_2022_t1 && mc.without_2022_t1) {
+    if (compareTitle) compareTitle.textContent = "Performance — Modèle avec vs sans données 2022 T1";
+    const metricNames = ["Accuracy","Balanced Accuracy","F1"];
+    const withT1 = [mc.with_2022_t1.accuracy, mc.with_2022_t1.balanced_accuracy, mc.with_2022_t1.f1];
+    const withoutT1 = [mc.without_2022_t1.accuracy, mc.without_2022_t1.balanced_accuracy, mc.without_2022_t1.f1];
+    Plotly.newPlot("chart-ml-compare", [
+      { name:"Avec 2022 T1", type:"bar", x:metricNames, y:withT1.map(v=>+(v*100).toFixed(1)), marker:{color:"#1a3a5c"}, text:withT1.map(v=>(v*100).toFixed(1)+"%"), textposition:"outside" },
+      { name:"Sans 2022 T1", type:"bar", x:metricNames, y:withoutT1.map(v=>+(v*100).toFixed(1)), marker:{color:"#94a3b8"}, text:withoutT1.map(v=>(v*100).toFixed(1)+"%"), textposition:"outside" },
+    ], layout({ barmode:"group", yaxis:{title:"%",range:[80,100]}, legend:{orientation:"h"} }), CFG);
+  }
+
+  // Abs predicted vs actual
+  const absEval = DATA.abstention_evaluation || {};
+  const absTitle = document.getElementById("abs-pred-title");
+  if (absEval?.metadata?.latest_election_label) {
+    absTitle.textContent = `Abstention observée vs prédite — ${absEval.metadata.latest_election_label} (jeu de test)`;
+  }
+  if (absEval?.points?.length) {
+    const points = absEval.points;
+    const maxAbs = Math.max(
+      30,
+      ...points.map(r => Math.max(r.actual_abstention, r.predicted_abstention))
+    );
+    const axisMax = Math.ceil(maxAbs / 5) * 5;
+    const metaBits = [];
+    if (absEval?.metadata?.test_support != null) metaBits.push(`Jeu de test n=${absEval.metadata.test_support}`);
+    if (absEval?.metrics?.mae != null) metaBits.push(`MAE ${absEval.metrics.mae.toFixed(2)} pts`);
+    if (absEval?.metrics?.r2 != null) metaBits.push(`R² = ${absEval.metrics.r2.toFixed(3)}`);
+    if (absEval?.metrics?.cv_r2 != null && absEval?.metrics?.cv_r2_std != null) {
+      metaBits.push(`CV R² = ${absEval.metrics.cv_r2.toFixed(3)} ± ${absEval.metrics.cv_r2_std.toFixed(3)}`);
+    }
+
+    Plotly.newPlot("chart-abs-pred", [{
+      type:"scatter", mode:"markers",
+      x:points.map(r=>r.actual_abstention), y:points.map(r=>r.predicted_abstention),
+      text:points.map(r=>r.libelle_commune),
+      customdata: points.map(r=>r.abs_error),
+      marker:{color:"#2a7ab5",opacity:.78,size:8},
+      hovertemplate:"%{text}<br>Réel : %{x:.1f}%<br>Prédit : %{y:.1f}%<br>Erreur absolue : %{customdata:.1f} pt<extra></extra>",
+      showlegend:false
+    },{
+      type:"scatter", mode:"lines",
+      x:[0,axisMax], y:[0,axisMax],
+      line:{dash:"dot",color:"#aaa",width:1.5}, showlegend:false, hoverinfo:"skip"
+    }], layout({
+      showlegend:false,
+      xaxis:{title:"Abstention réelle (%)", range:[0,axisMax]},
+      yaxis:{title:"Abstention prédite (%)", range:[0,axisMax]},
+      annotations: metaBits.length ? [{
+        xref:"paper", yref:"paper", x:0, y:1.12, showarrow:false,
+        text:metaBits.join(" · "),
+        font:{size:11, color:"#6b7280"}
+      }] : []
+    }), CFG);
+  } else {
+    document.getElementById("chart-abs-pred").innerHTML =
+      `<div class="text-muted small p-3">Évaluation du modèle d'abstention indisponible.</div>`;
+  }
+
+  // Feature importance
+  const fiSel = document.getElementById("feature-importance-select");
+  function drawFeatureImportance(modelKey) {
+    const payload = fi[modelKey];
+    if (!payload || !payload.features || !payload.features.length) {
+      document.getElementById("chart-feature-importance").innerHTML =
+        `<div class="text-muted small p-3">Aucune donnée d'importance disponible.</div>`;
+      return;
+    }
+    const rows = payload.features.slice().sort((a,b)=>a.importance-b.importance);
+    Plotly.newPlot("chart-feature-importance", [{
+      type:"bar",
+      orientation:"h",
+      y: rows.map(r=>prettyFeatureName(r.feature)),
+      x: rows.map(r=>r.importance),
+      customdata: rows.map(r=>r.std ?? null),
+      marker:{color:modelKey==="abstention" ? "#2a7ab5" : "#1a3a5c", opacity:0.88},
+      hovertemplate:
+        "%{y}<br>Importance : %{x:.3f}" +
+        (modelKey==="abstention" ? "<br>Écart-type : %{customdata:.3f}" : "") +
+        "<extra></extra>"
+    }], layout({
+      margin:{t:20,r:20,b:40,l:260},
+      xaxis:{title: payload.importance_label},
+      yaxis:{automargin:true, tickfont:{size:10}},
+      annotations: [{
+        xref:"paper", yref:"paper", x:0, y:1.12, showarrow:false,
+        text:`${payload.model_label} · ${payload.method}`,
+        font:{size:11, color:"#6b7280"}
+      }]
+    }), CFG);
+  }
+  drawFeatureImportance(fiSel.value);
+  fiSel.addEventListener("change", ()=>drawFeatureImportance(fiSel.value));
+
+  // Nuance real vs predicted stacked bar
+  const profiles = DATA.commune_profiles;
+  const nuanceActual   = groupBy(profiles, "libelle_nuance");
+  const nuancePred     = groupBy(profiles, "predicted_nuance");
+  const allNuances = uniq([...Object.keys(nuanceActual),...Object.keys(nuancePred)]).sort();
+  Plotly.newPlot("chart-nuance-pred", [
+    { name:"Réelle", type:"bar", x:allNuances, y:allNuances.map(n=>(nuanceActual[n]||[]).length), marker:{color:"#1a3a5c"} },
+    { name:"Prédite", type:"bar", x:allNuances, y:allNuances.map(n=>(nuancePred[n]||[]).length), marker:{color:"#e63329",opacity:.75} },
+  ], layout({ barmode:"group", xaxis:{tickangle:-30,automargin:true}, yaxis:{title:"Nb communes"}, legend:{orientation:"h"} }), CFG);
+}
+</script>
+</body>
+</html>
