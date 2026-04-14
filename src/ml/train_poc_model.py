@@ -1,3 +1,18 @@
+"""
+Machine Learning Model Training Module for French Election Prediction.
+
+This module implements a logistic regression model to predict whether Emmanuel Macron
+will win in a given French commune in the 2022 presidential election second round.
+The model uses election results from previous elections (2017, 2022 T1) and security
+indicators (2021, 2022) as features.
+
+The module supports two experiments:
+1. with_2022_t1: Includes 2022 first round data as features
+2. without_2022_t1: Uses only 2017 election data and security indicators
+
+Author: Election Analytics Project
+"""
+
 from __future__ import annotations
 
 import csv
@@ -7,7 +22,6 @@ import math
 import random
 from pathlib import Path
 
-
 ROOT_DIR = Path(__file__).resolve().parents[2]
 ELECTION_DIR = ROOT_DIR / "data" / "gold" / "election"
 SECURITY_DIR = ROOT_DIR / "data" / "gold" / "security"
@@ -15,11 +29,28 @@ OUTPUT_DIR = Path(__file__).resolve().parent / "outputs"
 
 
 def read_csv_rows(path: Path) -> list[dict[str, str]]:
+    """
+    Read CSV file and return list of dictionaries.
+    
+    Args:
+        path: Path to CSV file (semicolon-delimited, UTF-8 encoded)
+    
+    Returns:
+        List of dictionaries where each dictionary represents a row
+    """
     content = path.read_text(encoding="utf-8")
     return list(csv.DictReader(io.StringIO(content), delimiter=";"))
 
 
 def write_csv_rows(path: Path, rows: list[dict[str, object]], fieldnames: list[str]) -> None:
+    """
+    Write list of dictionaries to CSV file.
+    
+    Args:
+        path: Path where CSV file will be saved
+        rows: List of dictionaries to write
+        fieldnames: List of column names (header row)
+    """
     with path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -27,6 +58,18 @@ def write_csv_rows(path: Path, rows: list[dict[str, object]], fieldnames: list[s
 
 
 def normalize_id_commune(value: str) -> str:
+    """
+    Normalize commune ID to standardized format (dept-commune).
+    
+    Converts IDs like "69-1" to "69-001" with zero-padded department (2 digits)
+    and commune (3 digits) codes.
+    
+    Args:
+        value: Commune ID string (e.g., "69-1", "69001")
+    
+    Returns:
+        Normalized ID in format "DD-CCC" where D=dept, C=commune
+    """
     parts = str(value).split("-", 1)
     if len(parts) == 2:
         dept = parts[0].strip().zfill(2)
@@ -36,6 +79,20 @@ def normalize_id_commune(value: str) -> str:
 
 
 def slugify(text: str) -> str:
+    """
+    Convert text to URL-safe slug format for database/file names.
+    
+    - Converts to lowercase
+    - Removes accented characters (é->e, à->a, etc)
+    - Replaces spaces and special characters with underscores
+    - Collapses multiple underscores to single underscore
+    
+    Args:
+        text: Input text to convert
+    
+    Returns:
+        Slugified text (e.g., "Jean-Marie LE PEN" -> "jean_marie_le_pen")
+    """
     text = text.lower().strip()
     for old, new in [
         ("é", "e"),
@@ -67,6 +124,18 @@ def slugify(text: str) -> str:
 
 
 def to_float(value: str, default: float = 0.0) -> float:
+    """
+    Safely convert string value to float.
+    
+    Handles None, empty strings, and invalid numeric formats gracefully.
+    
+    Args:
+        value: String value to convert
+        default: Default value if conversion fails (default 0.0)
+    
+    Returns:
+        Float value or default if conversion fails
+    """
     if value is None:
         return default
     raw = str(value).strip()
@@ -79,6 +148,19 @@ def to_float(value: str, default: float = 0.0) -> float:
 
 
 def to_int(value: str, default: int = 0) -> int:
+    """
+    Safely convert string value to integer.
+    
+    Handles None, empty strings, and invalid numeric formats gracefully.
+    Converts via float first to handle decimal strings like "1.0".
+    
+    Args:
+        value: String value to convert
+        default: Default value if conversion fails (default 0)
+    
+    Returns:
+        Integer value or default if conversion fails
+    """
     if value is None:
         return default
     raw = str(value).strip()
@@ -91,19 +173,65 @@ def to_int(value: str, default: int = 0) -> int:
 
 
 def sigmoid(x: float) -> float:
+    """
+    Compute sigmoid activation function.
+    
+    Converts any input value to probability (0 to 1) using the sigmoid function.
+    Clamps x to [-50, 50] to avoid numerical overflow.
+    
+    Formula: sigmoid(x) = 1 / (1 + e^(-x))
+    
+    Args:
+        x: Input value
+    
+    Returns:
+        Sigmoid output (probability between 0 and 1)
+    """
     x = max(-50.0, min(50.0, x))
     return 1.0 / (1.0 + math.exp(-x))
 
 
 def dot_product(a: list[float], b: list[float]) -> float:
+    """
+    Calculate dot product of two vectors.
+    
+    Args:
+        a: First vector
+        b: Second vector
+    
+    Returns:
+        Dot product (a · b)
+    """
     return sum(x * y for x, y in zip(a, b))
 
 
 def mean(values: list[float]) -> float:
+    """
+    Calculate mean (average) of values.
+    
+    Args:
+        values: List of numeric values
+    
+    Returns:
+        Mean value, or 0.0 if list is empty
+    """
     return sum(values) / len(values) if values else 0.0
 
 
 def std(values: list[float], avg: float) -> float:
+    """
+    Calculate standard deviation of values.
+    
+    Computes population standard deviation given mean value.
+    Returns 1.0 if list is empty to avoid division by zero.
+    
+    Args:
+        values: List of numeric values
+        avg: Pre-calculated mean/average of values
+    
+    Returns:
+        Standard deviation, or 1.0 if empty
+    """
     if not values:
         return 1.0
     variance = sum((v - avg) ** 2 for v in values) / len(values)
@@ -111,6 +239,25 @@ def std(values: list[float], avg: float) -> float:
 
 
 def classification_metrics(y_true: list[int], y_pred: list[int]) -> dict[str, float]:
+    """
+    Calculate comprehensive classification metrics for binary classification.
+    
+    Computes accuracy, precision, recall, F1-score, specificity, balanced accuracy,
+    and confusion matrix values (TP, TN, FP, FN).
+    
+    Args:
+        y_true: True binary labels (0 or 1)
+        y_pred: Predicted binary labels (0 or 1)
+    
+    Returns:
+        Dictionary containing:
+        - accuracy: (TP+TN)/(TP+TN+FP+FN)
+        - balanced_accuracy: (recall+specificity)/2
+        - precision: TP/(TP+FP)
+        - recall: TP/(TP+FN) - also called sensitivity/true positive rate
+        - f1: 2*precision*recall/(precision+recall)
+        - tp, tn, fp, fn: confusion matrix values
+    """
     total = len(y_true)
     correct = sum(1 for yt, yp in zip(y_true, y_pred) if yt == yp)
     accuracy = correct / total if total else 0.0
@@ -140,6 +287,22 @@ def classification_metrics(y_true: list[int], y_pred: list[int]) -> dict[str, fl
 
 
 def stratified_split(rows: list[dict[str, object]], target_key: str, test_size: float = 0.2, seed: int = 42):
+    """
+    Split dataset into train/test sets maintaining class distribution.
+    
+    Ensures that both training and testing sets have approximately the same
+    proportions of each class (0 and 1) as the original dataset. Useful for
+    preventing bias in imbalanced datasets.
+    
+    Args:
+        rows: List of data samples
+        target_key: Dictionary key containing the target/label value (0 or 1)
+        test_size: Fraction of data to use for testing (default 0.2 = 20%)
+        seed: Random seed for reproducibility
+    
+    Returns:
+        Tuple of (train_rows, test_rows)
+    """
     random.seed(seed)
     grouped: dict[int, list[dict[str, object]]] = {0: [], 1: []}
     for row in rows:
@@ -160,6 +323,26 @@ def stratified_split(rows: list[dict[str, object]], target_key: str, test_size: 
 
 
 def build_election_dataset(include_2022_t1: bool = True) -> tuple[dict[str, dict[str, float]], dict[str, int]]:
+    """
+    Build election features dataset for model training.
+    
+    Loads election results from gold layer (2017 T1/T2 and 2022 T1/T2) and creates
+    features for each commune including:
+    - Voter participation metrics (registered, abstentions, voters, blanks, nuls, expressed)
+    - Candidate vote shares per election
+    - Controls target variable: 1 if MACRON wins 2022 T2, 0 if LE PEN wins
+    
+    The 2022 second round determines the target (who actually won in that commune).
+    Earlier elections provide features to predict this outcome.
+    
+    Args:
+        include_2022_t1: If True, includes 2022 first round data as features (for comparison) 
+    
+    Returns:
+        Tuple of:
+        - features: Dict mapping commune_id -> Dict of feature_name -> value
+        - targets: Dict mapping commune_id -> target_value (0 or 1)
+    """
     dim_election = read_csv_rows(ELECTION_DIR / "dim_election.csv")
     dim_candidat = read_csv_rows(ELECTION_DIR / "dim_candidat.csv")
     fact_resultats = read_csv_rows(ELECTION_DIR / "fact_resultats.csv")
@@ -221,6 +404,20 @@ def build_election_dataset(include_2022_t1: bool = True) -> tuple[dict[str, dict
 
 
 def build_security_dataset() -> dict[str, dict[str, float]]:
+    """
+    Build security indicators features dataset.
+    
+    Loads public security data (crime rates) from 2021-2022 and creates
+    features for each commune including:
+    - Crime rate indicators (normalized per 1000 inhabitants)
+    - INSEE population metrics
+    - INSEE housing metrics
+    
+    These security indicators may correlate with electoral preferences.
+    
+    Returns:
+        Dict mapping commune_id -> Dict of feature_name -> value
+    """
     dim_indicateur = read_csv_rows(SECURITY_DIR / "dim_indicateur_securite.csv")
     fact_securite = read_csv_rows(SECURITY_DIR / "fact_securite.csv")
 
@@ -247,6 +444,21 @@ def build_security_dataset() -> dict[str, dict[str, float]]:
 
 
 def assemble_dataset(include_2022_t1: bool = True) -> tuple[list[dict[str, object]], list[str]]:
+    """
+    Combine election and security features into unified dataset.
+    
+    Merges election features, security features, and target variable into
+    a single dataset where each row represents a commune with all available features.
+    Handles missing features by filling with None.
+    
+    Args:
+        include_2022_t1: If True, includes 2022 first round election features
+    
+    Returns:
+        Tuple of:
+        - dataset_rows: List of dicts with commune data and all features
+        - feature_names: Sorted list of all feature names (column headers)
+    """
     election_features, targets = build_election_dataset(include_2022_t1=include_2022_t1)
     security_features = build_security_dataset()
 
@@ -269,6 +481,19 @@ def assemble_dataset(include_2022_t1: bool = True) -> tuple[list[dict[str, objec
 
 
 def prepare_matrices(rows: list[dict[str, object]], feature_names: list[str]):
+    """
+    Convert dataset rows into numeric matrices for model input.
+    
+    Transforms dictionary-based rows into 2D list of floats for mathematical operations.
+    Missing values are converted to NaN for imputation in later steps.
+    
+    Args:
+        rows: List of data dictionaries
+        feature_names: List of feature column names to extract
+    
+    Returns:
+        2D list (matrix) where each row is a commune and each column is a feature
+    """
     matrix = []
     for row in rows:
         matrix.append([to_float(row[feature], default=float("nan")) for feature in feature_names])
@@ -279,6 +504,27 @@ def impute_and_scale(
     train_matrix: list[list[float]],
     test_matrix: list[list[float]],
 ) -> tuple[list[list[float]], list[list[float]], list[float], list[float]]:
+    """
+    Impute missing values and standardize features using training data statistics.
+    
+    Preprocessing steps:
+    1. Calculate mean and std dev for each feature using ONLY training data
+    2. Replace NaN values with feature mean
+    3. Standardize all values: (value - mean) / std_dev
+    
+    This ensures test data uses training statistics (prevents data leakage).
+    
+    Args:
+        train_matrix: Training data matrix
+        test_matrix: Testing data matrix
+    
+    Returns:
+        Tuple of:
+        - transformed_train_matrix: Imputed and standardized training data
+        - transformed_test_matrix: Imputed and standardized test data
+        - means: Mean values used (for reference)
+        - stds: Standard deviation values used (for reference)
+    """
     n_features = len(train_matrix[0])
     means = []
     stds = []
@@ -310,6 +556,27 @@ def fit_logistic_regression(
     epochs: int = 3000,
     l2: float = 0.001,
 ) -> tuple[list[float], float]:
+    """
+    Train logistic regression model using gradient descent with L2 regularization.
+    
+    Implements binary classification using:
+    - Sigmoid activation: converts linear output to probability [0, 1]
+    - Binary cross-entropy loss
+    - L2 regularization: prevents overfitting by penalizing large weights
+    - Gradient descent optimization: iteratively updates weights to minimize loss
+    
+    Args:
+        X: Training feature matrix (n_samples x n_features)
+        y: Training target labels (binary 0/1)
+        lr: Learning rate - controls step size in gradient descent (default 0.05)
+        epochs: Number of training iterations (default 3000)
+        l2: L2 regularization coefficient (default 0.001)
+    
+    Returns:
+        Tuple of:
+        - weights: Final model weights (one per feature)
+        - bias: Final intercept/bias term
+    """
     n_features = len(X[0])
     weights = [0.0] * n_features
     bias = 0.0
@@ -335,6 +602,23 @@ def fit_logistic_regression(
 
 
 def predict_classes(X: list[list[float]], weights: list[float], bias: float):
+    """
+    Generate class predictions and probabilities using trained model.
+    
+    Applies the trained logistic regression model to new data:
+    - Computes predicted probabilities using sigmoid(X*w + b)
+    - Converts probabilities to binary class (threshold = 0.5)
+    
+    Args:
+        X: Feature matrix for prediction
+        weights: Trained model weights
+        bias: Trained model bias
+    
+    Returns:
+        Tuple of:
+        - preds: List of binary predictions (0 or 1)
+        - probas: List of predicted probabilities for class 1 (Macron win)
+    """
     probas = [sigmoid(dot_product(row, weights) + bias) for row in X]
     preds = [1 if p >= 0.5 else 0 for p in probas]
     return preds, probas
@@ -349,6 +633,24 @@ def save_outputs(
     baseline_metrics: dict[str, float],
     model_metrics: dict[str, float],
 ) -> None:
+    """
+    Save model outputs and results to CSV and JSON files.
+    
+    Generates three CSV files and one JSON file:
+    1. model_dataset.csv: Complete dataset with all features
+    2. test_predictions.csv: Model predictions on test set
+    3. feature_importance.csv: Feature coefficients (sorted by absolute value)
+    4. metrics.json: Model performance metrics and metadata
+    
+    Args:
+        experiment_name: Name of experiment (becomes subdirectory name)
+        dataset_rows: Complete dataset with features
+        feature_names: List of feature column names
+        predictions: Model predictions on test set
+        weights: Trained model weights
+        baseline_metrics: Metrics from simplistic majority-class baseline
+        model_metrics: Metrics from trained model
+    """
     experiment_dir = OUTPUT_DIR / experiment_name
     experiment_dir.mkdir(parents=True, exist_ok=True)
 
@@ -387,6 +689,23 @@ def save_outputs(
 
 
 def run_experiment(experiment_name: str, include_2022_t1: bool) -> None:
+    """
+    Execute a complete machine learning experiment end-to-end.
+    
+    Pipeline:
+    1. Assemble dataset from election and security data
+    2. Stratified split into train (80%) and test (20%) sets
+    3. Convert to numeric matrices and impute missing values
+    4. Standardize features using training data statistics
+    5. Train logistic regression model
+    6. Generate predictions on test set
+    7. Compare against baseline (majority class predictor)
+    8. Save results and metrics
+    
+    Args:
+        experiment_name: Name for this experiment (used in output directory name)
+        include_2022_t1: If True, includes 2022 first round features
+    """
     dataset_rows, feature_names = assemble_dataset(include_2022_t1=include_2022_t1)
     train_rows, test_rows = stratified_split(dataset_rows, "target_macron_wins_2022_t2", test_size=0.2, seed=42)
 
@@ -440,6 +759,16 @@ def run_experiment(experiment_name: str, include_2022_t1: bool) -> None:
 
 
 def main() -> None:
+    """
+    Execute both experimental configurations and generate comparison.
+    
+    Runs two experiments:
+    1. with_2022_t1: Uses election data from 2017 + 2022 T1 + 2022 T2 + security data
+    2. without_2022_t1: Uses only 2017 election data + 2022 T2 + security data
+    
+    Compares model performance with and without 2022 T1 features to assess
+    their predictive value.
+    """
     experiments = [
         ("with_2022_t1", True),
         ("without_2022_t1", False),
